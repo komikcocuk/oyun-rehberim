@@ -2364,8 +2364,10 @@
   // (plain: no name links -- the General Concepts guide reads as prose)
   // the Getting Started guide's language (the app's own Turkish translation;
   // the game has no official Turkish, so game terms stay in English)
+  // The language choice lives in sessionStorage on purpose: every fresh visit
+  // opens in English, and TR holds only until the tab is closed.
   function guideLang() {
-    try { return localStorage.getItem("guideLang") === "tr" ? "tr" : "en"; } catch (e) { return "en"; }
+    try { return sessionStorage.getItem("guideLang") === "tr" ? "tr" : "en"; } catch (e) { return "en"; }
   }
   // The single TR/EN switch lives at the masthead's far left and applies
   // everywhere at once (guides, FAQ caption, the Concepts sidebar).
@@ -2380,7 +2382,8 @@
     host.querySelectorAll(".guide-lang-btn").forEach(function (btn) {
       btn.addEventListener("click", function (ev) {
         ev.stopPropagation();
-        try { localStorage.setItem("guideLang", btn.getAttribute("data-lang")); } catch (e) {}
+        try { sessionStorage.setItem("guideLang", btn.getAttribute("data-lang")); } catch (e) {}
+        try { localStorage.removeItem("guideLang"); } catch (e) {} // (older builds stored it here)
         renderTopLang();
         // redraw whatever shows translated text right now
         if (activePageId && activePageId.indexOf("__HOME__") === 0) {
