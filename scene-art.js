@@ -281,7 +281,7 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "WONDERS_1@CONCEPTS": {
-  "src": "images/paintings/scene/concepts/wonders_1.jpg",
+  "src": "images/paintings/scene/concepts/wonders_1b.jpg",
   "name": "Wonders",
   "credit": "Thomas Cole",
   "source": "File:Thomas Cole - Architect’s Dream - Google Art Project.jpg",
@@ -323,11 +323,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "PANTHEON_1@CONCEPTS": {
-  "src": "images/paintings/scene/concepts/pantheon_1.jpg",
+  "src": "images/paintings/scene/concepts/pantheon_1b.jpg",
   "name": "Pantheon",
-  "aspect": "77/100",
-  "credit": "Giovanni Paolo Panini",
-  "source": "File:Giovanni Paolo Panini - Interior of the Pantheon, Rome - Google Art Project.jpg",
+  "credit": "Jakob Alt",
+  "source": "File:Jakob Alt - Das Pantheon und die Piazza della Rotonda in Rom - 1836.jpg",
   "license": "Public domain"
  },
  "GOVERNMENT_1@CONCEPTS": {
