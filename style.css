@@ -8684,3 +8684,9 @@ body:has(.tt-pop:not([hidden])) .drawer-handle {
 .pj-route-acc > .age-acc-body .pj {
   padding-top: 12px;
 }
+
+/* The Getting Started guide's language toggle (EN / TR) */
+.guide-lang{display:flex;align-items:center;justify-content:center;gap:8px;margin:26px 0 -4px}
+.guide-lang-label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted,#9a9fae)}
+.guide-lang-btn{font:600 12px/1 Georgia,serif;letter-spacing:.08em;color:#c9b273;background:transparent;border:1px solid rgba(234,213,154,.35);border-radius:999px;padding:6px 14px;cursor:pointer}
+.guide-lang-btn.active{color:#141925;background:linear-gradient(180deg,#ead59a,#c9a355);border-color:#ead59a}

@@ -2365,8 +2365,34 @@
   }
 
   // (plain: no name links -- the General Concepts guide reads as prose)
+  // the Getting Started guide's language (the app's own Turkish translation;
+  // the game has no official Turkish, so game terms stay in English)
+  function guideLang() {
+    try { return localStorage.getItem("guideLang") === "tr" ? "tr" : "en"; } catch (e) { return "en"; }
+  }
+  function guideLangHtml() {
+    var l = guideLang();
+    return '<div class="guide-lang" role="group" aria-label="Guide language">' +
+      '<span class="guide-lang-label">Rehber / Guide</span>' +
+      '<button type="button" class="guide-lang-btn' + (l === "en" ? " active" : "") + '" data-lang="en">EN</button>' +
+      '<button type="button" class="guide-lang-btn' + (l === "tr" ? " active" : "") + '" data-lang="tr">TR</button></div>';
+  }
+  function bindGuideLang() {
+    contentEl.querySelectorAll(".guide-lang-btn").forEach(function (btn) {
+      btn.addEventListener("click", function (ev) {
+        ev.stopPropagation();
+        try { localStorage.setItem("guideLang", btn.getAttribute("data-lang")); } catch (e) {}
+        var intro = findIntroEntry();
+        if (intro) navigateToPage(intro.page, intro.groupTitle, intro.sectionId);
+      });
+    });
+  }
+
   function sectionFaqHtml(sectionId, hero, plain) {
     var faq = (SECTION_FAQ || window.CIVPEDIA_SECTION_FAQ || {})[sectionId] || {};
+    if (sectionId === "CONCEPTS" && guideLang() === "tr" && (window.CIVPEDIA_SECTION_FAQ_TR || {}).CONCEPTS) {
+      faq = window.CIVPEDIA_SECTION_FAQ_TR.CONCEPTS;
+    }
     var html = "";
     (faq.groups || []).forEach(function (g) {
       html += '<div class="unit-req-head civ-ability-cap faq-group-cap">' + escapeHtml(g.title) + '</div>';
@@ -3001,6 +3027,7 @@
     bindTipHandlers();
     bindLinkedIconHandlers();
     bindGalleryHandlers();
+    bindGuideLang();
     bindChapterAccordions();
     // an Age banner's height (whole on a desktop, the strip on a phone)
     contentEl.querySelectorAll(".age-acc > .age-acc-head--panel").forEach(sizeAgePanel);
@@ -4651,7 +4678,7 @@
     // under the Welcome: the guide in questions and answers (section-faq.js)
     var faq = (window.CIVPEDIA_SECTION_FAQ || {}).CONCEPTS;
     var guide = faq && (faq.groups || []).length
-      ? '<div class="intro-guide">' + sectionFaqHtml("CONCEPTS", "", true) + '</div>' : "";
+      ? '<div class="intro-guide">' + guideLangHtml() + sectionFaqHtml("CONCEPTS", "", true) + '</div>' : "";
     return hero + renderChapters(page.chapters || [], false, "CONCEPTS", { welcome: true }) + guide;
   }
 

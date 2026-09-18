@@ -3877,3 +3877,513 @@ window.CIVPEDIA_SECTION_FAQ = {
   ]
  }
 };
+// The Getting Started guide in Turkish (this app's own translation; the
+// game has no official Turkish, so game terms stay in English).
+window.CIVPEDIA_SECTION_FAQ_TR = {
+ "CONCEPTS": {
+  "emblem": "",
+  "groups": [
+   {
+    "title": "Oyun tek sayfada",
+    "items": [
+     {
+      "q": "Civilization VII nasıl bir oyun?",
+      "paragraphs": [
+       "Civilization VII, tarih boyunca bir imparatorluk kurduğun sıra tabanlı bir strateji oyunudur. Haritayı [B]keşfeder[/B], yeni Settlement'larla [B]genişler[/B], toprağı ve Resource'ları [B]işletir[/B], diğer liderlerle kültür, ticaret, bilim ve savaş üzerinden [B]rekabet edersin[/B]. Her tur birkaç karar verirsin; yüzlerce tur boyunca bu kararlar birikerek büyür.",
+       "Onu önceki Civilization oyunlarından ayıran üç fikir var:",
+       "[BLIST][LI][B]Age'ler.[/B] Bir oyun Antiquity, Exploration ve Modern Age'leri boyunca oynanır. Her Age; kendi kuralları, Building'leri, birlikleri ve hedefleri olan bir bölümdür.[LI][B]Lider ile medeniyet ayrıdır.[/B] Liderin bütün oyun boyunca kalır; medeniyetin bir Age'e aittir ve Age bittiğinde değişebilir.[LI][B]İnşa ettiğin sende kalır.[/B] Settlement'lar, Wonder'lar, Tradition'lar ve Attribute Point'ler sonraki Age'e taşınır; iyi bir erken oyun karşılığını vermeye devam eder.[/BLIST]"
+      ]
+     },
+     {
+      "q": "Üç Age nedir, bir Age nasıl biter?",
+      "paragraphs": [
+       "[B]Antiquity[/B] anavatanına yerleşmek, komşularla ve Independent Power'larla tanışmak ve Wonder'ların temelini atmakla ilgilidir. [B]Exploration[/B] okyanusları açar: Distant Lands, Religion ve Treasure Convoy'lar. [B]Modern[/B] ise Ideology'leri, Factory'leri, demiryollarını, hava gücünü ve uzay yarışını getirir - ve kazanmak için son şanstır.",
+       "Her Age'in bir [B]Age Progress[/B] ölçeği vardır. Her tur biraz dolar; biri Future Tech ya da Future Civic araştırdığında veya bir oyuncu elendiğinde daha hızlı dolar. %95'te (Standart hızda) 10 turluk bir geri sayım başlar; Antiquity ve Exploration'ın sonuna doğru bir [B]Crisis[/B] patlak verir. Ölçek dolduğunda bütün oyuncular birlikte sonraki Age'e geçer."
+      ]
+     },
+     {
+      "q": "Liderim ile medeniyetim arasındaki fark ne?",
+      "paragraphs": [
+       "[B]Liderin[/B] kalıcıdır: bir Leader Ability, iki Attribute, kazandığın Attribute Point'ler ve kuşandığın Memento'lar. [B]Medeniyetin[/B] ise tek bir Age'in alet çantasıdır: bir Civ Ability, kendine özgü birlikler ve Building'ler, bir civics ağacı ve Tradition'lar.",
+       "Bir medeniyet, tüm donanımının açık olduğu [B]Apex Age[/B]'inde en güçlüdür. Test of Time güncellemesiyle aynı medeniyeti sonraki Age'e taşıyabilirsin; o zaman [B]Time-Tested[/B] olur: kimliğini korur, daha küçük bir civics kümesi çalışır ve [B]Syncretism[/B] yoluyla Apex Age'indeki bir medeniyetin özgün birliklerini ya da altyapısını benimseyebilir veya oyun sonuna dek süren kendi [B]Affirmation Tradition[/B]'ını alabilir.",
+       "Bu uygulamadaki Civilizations ve Leaders anasayfa rehberleri ikisini de çok daha derin işler."
+      ]
+     },
+     {
+      "q": "Oyun nasıl kazanılır?",
+      "paragraphs": [
+       "Dört zafer yolu vardır - [B]Cultural[/B] (Tourism), [B]Economic[/B] (GDP), [B]Military[/B] (Dominion) ve [B]Scientific[/B] (Innovation) - ve herhangi birini ilk kazanan oyuncu oyunu bitirir.",
+       "Cultural, Economic ve Military zaferleri, ikinci sıradaki oyuncuya karşı büyük bir fark açıp bunu 5 turluk bir geri sayım boyunca korumakla kazanılır; Exploration Age'in ortasından itibaren mümkündürler. Scientific zaferi Modern Age'de 100 Innovation ve etkin bir Launch Pad ister. Ayrıca diğer bütün medeniyetlerin bütün Settlement'larını ele geçirerek [B]Domination[/B] zaferi de kazanabilirsin. Modern Age kazanansız biterse [B]Score[/B] belirler.",
+       "Aşağıdaki [B]Kazanmak[/B] başlığındaki sorular her yolu ayrıntısıyla anlatır."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "İlk oyunların, adım adım",
+    "items": [
+     {
+      "q": "İlk oyunumda hangi ayarları seçmeliyim?",
+      "paragraphs": [
+       "İlk oyunu basit tut ki kurallarla boğuşmak yerine sistemleri öğrenebil:",
+       "[BLIST][LI][B]Zorluk:[/B] merdiven Scribe, Governor, Viceroy, Sovereign, Immortal, Deity. [B]Scribe[/B] ya da [B]Governor[/B] ile başla.[LI][B]Hız:[/B] Standart. Civilopedia'daki sayıların çoğu Standart hızı varsayar.[LI][B]Harita:[/B] az rakipli küçük bir harita; oyunlar kısalır, komşular kolay izlenir.[LI][B]Triumph Set:[/B] Default (Age başına 30 Triumph), önerilen küme.[LI][B]Age Transition Impact:[/B] [B]Continuity[/B] imparatorluğunun, birliklerinin ve ittifaklarının çoğunu Age'ler arasında korur; öğrenirken daha yumuşaktır. [B]Regroup[/B] her Age'e dengeli bir başlangıç için daha çok şeyi sıfırlar.[LI][B]Lider:[/B] yeteneği ince zamanlama istemeyen biri (Leaders anasayfa rehberi iyi ilk seçimleri listeler).[/BLIST]"
+      ]
+     },
+     {
+      "q": "İlk turlarda ne yapmalıyım?",
+      "paragraphs": [
+       "Açılış, küçük kazançların çığ gibi büyüdüğü yerdir. Sağlam bir rutin:",
+       "[BLIST][LI][B]Capital'ını hemen kur[/B]; bitişik karo açıkça daha iyi değilse Founder'ı bekletme (merkezinde Fresh Water olmayan bir Settlement kalıcı olarak beş Happiness geridedir).[LI][B]Keşfet.[/B] Erken bir Scout eğit ve Search yeteneğini kullan; haritadaki Discovery'ler bedava ödül verir, Independent Power'ları ve Natural Wonder'ları görmek nereye yerleşeceğini biçimlendirir.[LI][B]Büyümeyi ve savunmayı besleyen bir Tech ve Civic seç.[/B] Mysticism, Altar'ı (erken Happiness) ve bir Pantheon'u; Discipline bedava bir Army Commander'ı verir.[LI][B]Büyü.[/B] Oyunun başında Capital büyüdükçe en çok Food veren karoları işle.[LI][B]Yağmalara karşı[/B] birkaç askerî birlik bulundur: yakındaki düşmanca bir Independent Power saldıracaktır.[/BLIST]"
+      ]
+     },
+     {
+      "q": "Antiquity Age'de nasıl genişlemeliyim?",
+      "paragraphs": [
+       "Settler'lar en az [B]5 Population[/B]'lı her Settlement'ta eğitilebilir. Başta tek City'n Capital'dır; sonraki her Settler bir [B]Town[/B] kurar.",
+       "Fresh Water'ı, Resource'ları (özellikle City ve Bonus Resource'ları), bir Natural Wonder'ı ya da kıyı, Navigable River veya geçit gibi stratejik bir konumu olan yerleri seç. İyi noktaları görmek için Settler Lens'i kullan.",
+       "[B]Settlement Limit[/B]'ine ulaşana dek istikrarla genişle. Limitin üzerindeki her Settlement, sahip olduğun [B]her[/B] Settlement'a -5 Happiness verir; bu yüzden limiti ancak bedelini Happiness Building'leri, Resource'lar ve konuşlandırılmış Commander'larla ödeyebileceksen aş."
+      ]
+     },
+     {
+      "q": "Acemilikten ustalığa iyi bir öğrenme yolu nedir?",
+      "paragraphs": [
+       "Her oyunu tek hedefli bir ders say. Beceriyi tek tek kuran bir merdiven:",
+       "[BLIST][LI][B]1. oyun - döngü (Scribe).[/B] Bir tam oyun oyna. Büyümeyi, Town ve City'leri, Building'leri, Tech ve Civic'leri öğren. Kazanmayı dert etme.[LI][B]2. oyun - tek zafer (Governor).[/B] Antiquity'de bir zafer yolu seç, onu destekleyen iki üç Triumph izle, Victory panelini birkaç turda bir aç.[LI][B]3. oyun - savaş (Governor ya da Viceroy).[/B] Commander'lar ve Army'lerle savaş, bir Settlement ele geçir, anlaşmayla barış yap.[LI][B]4. oyun - verim (Viceroy).[/B] Quarter'ları ve bitişiklikleri planla, Specialist yerleştir, her Age geçişinden sonra overbuild yap, City'leri Town'larla besle.[LI][B]5. oyun ve sonrası - tempo (Sovereign, Immortal, Deity).[/B] Üç Age'i baştan planla; yalnız kendi zaferini kovalamayı değil, rakibinkini durdurmayı da öğren.[/BLIST]",
+       "Tam oyunlar arasında tek bir Age'i çalışmak için [B]Single Age Game[/B] ya da ileri bir Age'de [B]Advanced Start[/B] kullan."
+      ]
+     },
+     {
+      "q": "Kaybedilen bir oyundan nasıl ders çıkarırım?",
+      "paragraphs": [
+       "Oyunu kapatmadan önce dört soru sor:",
+       "[BLIST][LI][B]Ne zaman geri düştüm?[/B] Victory panelini aç, her yoldaki puanını liderinkiyle karşılaştır.[LI][B]Beni Happiness mı, Gold mu frenledi?[/B] Mutsuz Settlement'lar üretim kaybeder; eksi Gold geliri birlikleri dağıtabilir.[LI][B]City'lerim boş mu durdu?[/B] Boş bir City, Research Initiative ya da Cultural Festival gibi bir Project çalıştırmalı.[LI][B]Age ben hazır olmadan mı bitti?[/B] Bitmemiş Triumph'lar, harcanmamış Gold ve Influence, alınmamış Dedication'lar bir geçişteki en yaygın kayıplardır.[/BLIST]",
+       "Sonraki oyunda her seferinde tek alışkanlık değiştir. Legend XP yenilgide de kazanılır; kaybedilen oyun bile Memento açar."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Önce ustalaşılacak kavramlar",
+    "items": [
+     {
+      "q": "En önemli kavramlar hangileri?",
+      "paragraphs": [
+       "Bu Civilopedia'nın yalnızca on sayfasını çalışacaksan, sırasıyla şunları çalış:",
+       "[BLIST][LI][B]Büyüme ve karolar[/B] - Food, kırsal Improvement'lar ve kentli Specialist'ler.[LI][B]Town'lar ve City'ler[/B] - her birinin yapabildikleri, Town Focus, Town dönüştürme.[LI][B]Happiness ve Settlement Limit[/B] - bir imparatorluk neden fazla hızlı büyüyebilir.[LI][B]Building'ler ve bitişiklik[/B] - bir Building nereye konur, Quarter'lar, Warehouse'lar, overbuild.[LI][B]Resource'lar ve ticaret[/B] - slotlar, Merchant'lar ve Trade Route'lar.[LI][B]Policy'ler ve Celebration'lar[/B] - Happiness'ın policy slotu satın alışı.[LI][B]Tech'ler, Civic'ler ve Mastery'ler[/B] - neyi ne zaman araştırmalı.[LI][B]Influence ve Relationship'ler[/B] - Endeavor'lar, Sanction'lar, Independent Power'lar.[LI][B]Commander'lar ve Army'ler[/B] - savaş artık nasıl işliyor.[LI][B]Triumph'lar ve Age geçişleri[/B] - bir Age sonrakini nasıl kurar.[/BLIST]"
+      ]
+     },
+     {
+      "q": "Büyüme, karolar ve Specialist'ler nasıl çalışır?",
+      "paragraphs": [
+       "Her Settlement Food toplar. Büyüme eşiğini aştığında bir Population kazanırsın ve nereye koyacağını seçersin:",
+       "[BLIST][LI]Boş bir [B]Rural[/B] karoya konursa, oradaki araziye ya da Resource'a göre seçilen bir [B]Improvement[/B] olur (Farm, Mine, Woodcutter, Fishing Boat...). Sınır onun çevresinde genişler.[LI]Bir [B]City[/B]'deki bir Building'e konursa [B]Specialist[/B] olur ve o karodaki Building'lerin bitişiklik bonusları kadar üretim ekler. Specialist'ler Food ve Happiness'a mal olur (güncel Age Building'lerinde Age başına 2'şer). Specialist yalnız City'lerde olur.[/BLIST]",
+       "Civilization VII'de vatandaşlar Food yemez; yalnız Specialist'ler yer. Bir Settlement'ın büyüyecek yeri kalmadığında bunun yerine bir [B]Migrant[/B] doğurur; onu başka bir Settlement'a yürütebilirsin."
+      ]
+     },
+     {
+      "q": "Bir Town ne yapabilir, bir City ne yapabilir?",
+      "paragraphs": [
+       "[B]City[/B]'nin üretim kuyruğu vardır: Production'ıyla birlik, Building, Wonder ve Project üretir; Specialist barındırabilir. [B]Town[/B]'ın üretim kuyruğu yoktur: bütün Production'ı Gold'a döner, ihtiyaçlarını Gold ile satın alırsın.",
+       "Bir Town [B]7 Population[/B]'a ulaştığında kalıcı bir [B]Town Focus[/B] seçebilirsin. Odakların çoğu Town'ın büyümesini durdurur ve Food'unu Connected City'lere gönderir (doğrudan yolla bağlı olanlara ya da aynı kıtada ikisi de kıyıdaysa). Örnekler: Farming veya Fishing Town (+Food), Mining Town (+Production), Trade Outpost (Resource'larda Happiness, ticaret menzili), Fort Town (savunma), Religious Site (Relic slotları, yalnız Exploration), Hub Town (Influence), Resort Town (Appealing karolarda Happiness ve Gold), Urban Center (Quarter'larda Science ve Culture), Factory Town (Modern).",
+       "Bir Town'ı Gold karşılığında City'ye çevirebilirsin. Capital dışındaki her City, Warehouse olmayan Building'lerin maliyetini %10 artırır; oyunun kendisi de en az City kadar Town tutmayı öğütler."
+      ]
+     },
+     {
+      "q": "Happiness ve Celebration'lar nasıl çalışır?",
+      "paragraphs": [
+       "Happiness iki düzeyde işler. [B]Yerelde[/B] her Settlement Happiness kazanır (işlenmiş karoların Appeal'ı, Happiness Building'leri, Resource'lar, Fresh Water) ve Building ile Specialist bakımını öder. Sonuç eksiyse Settlement, puan başına diğer üretimlerinin %5'ini kaybeder; kayıp %80'e kadar çıkar.",
+       "[B]Genelde[/B] ise artan her Happiness puanı bir sonraki [B]Celebration[/B]'a yazılır. Bir Celebration yeni bir policy slotu verir ve Government'ından iki bonustan birini seçtirir; Entertainment araştırıldıktan sonra Tourism da verir. Her Celebration bir öncekinden pahalıdır.",
+       "Mutsuz bir Settlement'ın ilaçları: bir Happiness Building'i al ya da inşa et, bir Resource ata, sonraki büyümede Appealing bir karo işle, bir Town'ı Resort Town yap ya da Settlement merkezine bir Commander konuşlandır (-%10 mutsuzluk, her Promotion'la daha fazlası)."
+      ]
+     },
+     {
+      "q": "Building'ler ve bitişiklik bonusları nasıl çalışır?",
+      "paragraphs": [
+       "Bir karoya Building koymak onu [B]Urban District[/B] yapar; yeni District'ler City Center'dan başlayarak mevcut birine değmelidir. Bir karo iki Building alır; ikisi de güncel Age'den (ya da Ageless) olduğunda karo bir [B]Quarter[/B] olur.",
+       "Building'lerin çoğu yanlarındaki Wonder'lardan ve türlerine göre şunlardan [B]bitişiklik bonusu[/B] alır:",
+       "[BLIST][LI][B]Science ve Production Building'leri[/B] - bitişik Resource'lar.[LI][B]Culture ve Happiness Building'leri[/B] - Mountain'lar ve Natural Wonder'lar.[LI][B]Food ve Gold Building'leri[/B] - kıyı karoları ve Navigable River'lar.[/BLIST]",
+       "[B]Warehouse Building'lerinin[/B] (Granary, Fishing Quay, Brickyard...) bitişikliği yoktur; onun yerine Settlement'taki eşleşen her Improvement'a üretim eklerler ve Ageless'tırlar. Her Age geçişinde eski Building'ler bitişiklik bonuslarını yitirir: bonusları geri almak için üzerlerine güncel Age Building'leriyle [B]overbuild[/B] yap."
+      ]
+     },
+     {
+      "q": "Resource'lar ve ticaret nasıl çalışır?",
+      "paragraphs": [
+       "Bir Resource karosunu işlemek o Resource'u sana verir. [B]Empire[/B] ve [B]Treasure[/B] Resource'ları bütün imparatorluğun için kendiliğinden çalışır. [B]Bonus[/B] Resource'lar bir Settlement'a, [B]City[/B] Resource'ları bir City'ye, her biri boş bir [B]Resource Slot[/B]'a atanmalıdır (Market'ler ve bazı Building'ler slot ekler). Factory Resource'ları Modern Age'de gelir.",
+       "Bir [B]Merchant[/B], yabancı bir Settlement'a [B]Trade Route[/B] kurar: onun işlediği her Resource'un bir kopyasını sen alırsın, sahibi Gold kazanır. Antiquity ve Exploration'da Merchant önce hedefe yürümelidir. Savaş çıktığında Trade Route'lar biter; bu yüzden dost kalmayı düşündüğün komşularla ticaret yap.",
+       "Resource'ları yalnızca yeni bir Resource ya da yeni bir Resource Slot kazandığın turda yeniden dağıtabilirsin."
+      ]
+     },
+     {
+      "q": "Influence ve diplomasi nasıl çalışır?",
+      "paragraphs": [
+       "[B]Influence[/B] diplomasinin para birimidir. Şunlara harcanır:",
+       "[BLIST][LI][B]Endeavor'lar[/B] - iki tarafa da yarayan, Relationship'i iyileştiren olumlu eylemler. Karşı lider Support (ikisine de daha büyük ödül), Accept ya da Reject (Influence'ın geri döner) diyebilir.[LI][B]Sanction'lar[/B] - hedefe zarar veren, Relationship'i bozan olumsuz eylemler. Friendly ve üzeri liderlere karşı kullanılamaz.[LI][B]Treaty'ler ve Espionage[/B] - Open Borders'tan teknoloji çalmaya. Espionage, açığa çıkmadıkça gizlidir.[LI][B]Independent Power'lar[/B] - birini Befriend et ki City-State olduğunda Suzerain'i olasın; ya da Incite et, bir rakibi yağmalasın.[LI][B]War Support[/B] - sürdürdüğün savaşta ek destek.[/BLIST]",
+       "Relationship'ler Hostile, Unfriendly, Neutral, Friendly, Helpful diye sıralanır ve zamanla Neutral'a geri kayar. Yalnız Helpful liderler müttefik olabilir ve müttefikler birbirinin savaşına çağrılır."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Güçlü bir ekonomi kurmak",
+    "items": [
+     {
+      "q": "Bir imparatorluğu çığ gibi büyüten nedir?",
+      "paragraphs": [
+       "Hemen her güçlü oyun aynı zinciri izler: [B]Food[/B], Population'ı büyütür; Population karoları işler ve Specialist yerlerini doldurur; bu [B]Production[/B]'ı, [B]Science[/B]'ı, [B]Culture[/B]'ı ve [B]Gold[/B]'u yükseltir; onlar da daha çok Building ve Settler alır, üretim yine artar.",
+       "Senin işin zinciri döndürmek ve tıkayanı kaldırmaktır:",
+       "[BLIST][LI]Settlement'ın Improvement'larına uyan [B]Warehouse[/B]'u erken kur.[LI][B]Gold'u[/B] biriktirme, harca: bir Building'i şimdi almak sonra almaktan daha değerlidir.[LI]Bir City'yi asla boş bırakma; işe yarar bir şey yoksa bir Project kuyruğa koy.[LI]7 Population'a gelen Town'larla en iyi City'lerini [B]besle[/B].[LI]İki freni izle: Happiness ve Gold bakımı.[/BLIST]"
+      ]
+     },
+     {
+      "q": "Hangi Town'lar City olmalı?",
+      "paragraphs": [
+       "Bir Town'ı, bedelini geri ödeyecekse dönüştür: bol Food'lu bir yer, Mountain'lara, Resource'lara, kıyılara ya da Navigable River'lara komşu District alanı, bir Wonder'a yer ya da ordu üretecek stratejik bir konum.",
+       "Küçük ya da uzmanlaşmış Settlement'ları Town bırak: Mining ve Farming Town'lar, Trade Outpost'lar ve Resort Town'lar işlerini en iyi Town olarak yapar. Ele geçirilen Settlement'ların dönüştürülmesi (tavana kadar) iki kat pahalıdır; dönüştürülen Town, Focus'unu ve büyüme bonusunu yitirir.",
+       "Unutma: her Age geçişinde Capital dışındaki her City Town'a döner; Town-City planın her Age'in başında yeniden yapılır."
+      ]
+     },
+     {
+      "q": "Ustalar Building'leri nasıl yerleştirir?",
+      "paragraphs": [
+       "Bir City'nin District'lerini ilk Building'i koymadan önce planla:",
+       "[BLIST][LI]Mountain'lara, Natural Wonder'lara, Resource'lara, kıyılara ve Navigable River'lara komşu karoları, onlardan bitişiklik alan Building türlerine ayır.[LI]Aynı bitişikliği paylaşan iki Building'i tek karoya koyup [B]Quarter[/B] yap, Specialist'leri oraya yerleştir: ikisinin bitişikliğini birden eklerler.[LI][B]Wonder'ları[/B] çok sayıda Building'inin dokunabileceği yere kur; çoğu Building Wonder'lardan bitişiklik alır.[LI]En iyi Production City'nde bir Wonder'lık karoyu boş tut.[LI][B]Warehouse'ları[/B] ve diğer Ageless Building'leri dikkatli yerleştir: üzerlerine asla overbuild yapılamaz.[/BLIST]"
+      ]
+     },
+     {
+      "q": "İflastan ve mutsuzluktan nasıl kaçınırım?",
+      "paragraphs": [
+       "Building'lerin çoğu her tur Gold ve Happiness bakımı ister (Antiquity'de genellikle 2'şer, Exploration'da 3'er). Gold Building'leri Gold bakımı, Happiness Building'leri Happiness bakımı ödemez.",
+       "Gelirin eksideyken hazinen sıfırın altına düşerse en pahalı birliklerin teker teker dağıtılır. Büyük bir ordudan ya da çok Building'den önce Gold gelirini ve her Settlement'ın Happiness'ını denetle.",
+       "Erken uyarılar: Happiness'ı eksiye dönen bir Settlement, sürekli uzaklaşan bir Celebration ve sıfıra yakın Gold geliri."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Age'ler boyunca oynamak",
+    "items": [
+     {
+      "q": "Tek liderle üç Age'i nasıl planlarım?",
+      "paragraphs": [
+       "Liderinden başla. İki Attribute'u ve Leader Ability'si hangi zafer yollarını sevdiğini söyler. Sonra birbirini açan ya da liderinin açtığı üç medeniyetlik bir rota kur (her lider sayfasındaki [B]Civ Paths[/B] satırı tam rotaları gösterir).",
+       "İki kural planlamayı kolaylaştırır. [B]Tradition'lar taşınır[/B]: oynadığın her medeniyetin özel policy kartları elinde kalır. [B]Attribute Point'ler taşınır[/B]: bir Attribute ağacına harcanan her puan bütün oyun sürer.",
+       "Her yeni Age'de [B]Apex[/B] bir medeniyet (o Age'in en güçlü donanımı) ile [B]Time-Tested[/B] kalmak arasında seç (medeniyetini koru; Syncretism ile Apex bir medeniyetten bir özgün parça ödünç al ya da bir Affirmation Tradition kazan)."
+      ]
+     },
+     {
+      "q": "Bir Age bitmeden ne yapmalıyım?",
+      "paragraphs": [
+       "Bir Age'in son turları, sonrakine ne kadar güçlü başlayacağını belirler:",
+       "[BLIST][LI][B]Taşıma sınırının üstündeki Gold ve Influence'ı harca.[/B] Continuity ile oynanan Age başına en çok 3.000 Gold ve 400 Influence taşırsın (Exploration'a girerken 6.000 Gold); Regroup ile düz 3.000 Gold ve 500 Influence.[LI][B]Yaklaşan Triumph'ları bitir[/B]; Major Triumph'lar Dedication verir.[LI][B]Ordunu hazırla.[/B] Regroup'ta kara birlikleri Antiquity'den sonra altıya, Exploration'dan sonra dokuza iner (Commander'lara yüklenmiş birlikler hariç). Commander'lar seviyelerini ve Promotion'larını korur.[LI][B]Sonraki medeniyetini[/B] önceden seç, eksik kalan açma koşullarını not et.[LI][B]Capital'ını düşün.[/B] Yalnız Capital City kalır; ama Capital'ı taşımak sana anında ikinci bir City kazandırır.[/BLIST]"
+      ]
+     },
+     {
+      "q": "Yeni bir Age başladığında ne değişir?",
+      "paragraphs": [
+       "Liderini, Attribute Point'lerini, Tradition'larını, Settlement'larını, Wonder'larını, Unique Quarter'larını, Commander'larını ve (Continuity ile) birliklerinin çoğunu korursun. Building'ler kalır ama yalnız taban üretimlerini tutar.",
+       "Şunlar değişir: medeniyetin (yeni ya da Time-Tested), Capital dışındaki her City Town olur, eski Building'ler bitişikliklerini ve tür etiketlerini yitirir, Tech ve Civic'lerin çoğu sıfırlanır, yeni Independent Power'lar belirir, Discovery'ler yeniden doğar, Resource atamaları ve Suzerain bonusları gider, bitmemiş görevler silinir.",
+       "Yeni Age'deki ilk işlerin: 3 Dedication seç, yeni Merchant'lar ve Trade Route'lar kur, Resource'ları yeniden ata, kilit Town'larını yeniden City yap ve overbuild'e başla."
+      ]
+     },
+     {
+      "q": "Triumph ve Dedication nedir, kaçının peşinden koşmalıyım?",
+      "paragraphs": [
+       "[B]Triumph'lar[/B] her Age'de, altı Attribute'a göre temalanmış meydan okumalardır. [B]Minor Triumph'lar[/B] anında ödül verir. [B]Major Triumph'lar[/B] uzun vadeli plan ister ve her biri Age geçişinde seçtiğin güçlü bir bonus olan bir [B]Dedication[/B] açar.",
+       "Sonraki Age'e yalnız [B]3 Dedication[/B] götürebilirsin; üçten çok Major Triumph kazanmak sana seçenek verir ama amacın olmamalı. Her Age'in başında Triumph ekranını aç, zafer yoluna uyan iki üçünü seç ve Track ile sabitle.",
+       "Kurulumdaki Triumph Set listeyi değiştirir: Default (Age başına 30), Classic (Age başına 4, eski Legacy Path'ler), Conqueror (9, askerî), Explorer (8), Trailblazer (Default, ama her Triumph bir yarış) ya da None. Crisis Triumph'ları hangi sette olursa olsun Crisis sırasında belirir."
+      ]
+     },
+     {
+      "q": "Bir Crisis'i nasıl atlatırım?",
+      "paragraphs": [
+       "Crisis, Antiquity ve Exploration'ın sonuna doğru başlar. Çözülemez, durdurulamaz; Age bitene dek yönetilir. Crisis boyunca, genellikle olumsuz etkili [B]Crisis Policy[/B]'leri slotlamak zorundasın.",
+       "[BLIST][LI][B]Invasion (Antiquity)[/B] - düşman kamplar doğar ve yağmalar. Wall'lar, Fortification'lar ve sınıra yakın ordulu bir Commander.[LI][B]Plague (Antiquity ve Exploration)[/B] - salgınlar Building yağmalar, birlik yıpratır; yoğun, iyi bağlı ya da kuşatılmış Settlement'larda daha olasıdır.[LI][B]Revolts (Antiquity)[/B] ve [B]Wars of Religion (Exploration)[/B] - mutsuz Settlement'lar Unrest'e düşebilir ya da saf değiştirebilir. Her Settlement'ı mutlu tut; Exploration'da Settlement'larını kendi Religion'ında tut.[LI][B]Revolution (Exploration)[/B] - Government'ın eninde sonunda devrilir ve bir Revolutionary Government seçersin.[/BLIST]",
+       "En iyi hazırlık, Crisis başlamadan her Settlement'ta bir Happiness fazlasıdır."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Kazanmak",
+    "items": [
+     {
+      "q": "Cultural, Economic ve Military zaferleri nasıl işler?",
+      "paragraphs": [
+       "Üçü de [B]ikinci sıradaki oyuncuya[/B] karşı farkı ölçer. Puanın gereken katsayıya ulaştığında [B]5 turluk geri sayım[/B] başlar; altına düşersen geri sayım durur ama ilerlemesi korunur. Gereken fark oyun ilerledikçe küçülür:",
+       "[BLIST][LI]Antiquity - henüz zafer yok.[LI]6x - Exploration Age, %50-%79 ilerleme (Transcendent zafer).[LI]4x - Exploration %80'den Modern %20'ye (Crushing).[LI]3x - Modern %20-%39 (Decisive).[LI]2x - Modern %40-%59 (Momentous).[LI]1,5x - Modern %60-%79 (Substantive).[LI]1,25x - Modern %80-%100 (Narrow).[/BLIST]",
+       "Hedef ikincinin katı olduğu için, aynı yoldaki kendi puanını yükselterek bir rakibi engelleyebilirsin de."
+      ]
+     },
+     {
+      "q": "Cultural zaferi nasıl kazanırım?",
+      "paragraphs": [
+       "Herkesten çok daha fazla [B]Tourism[/B] gerekir. Tourism şunlardan gelir:",
+       "[BLIST][LI][B]Wonder'lar[/B]: 4 (Antiquity), 8 (Exploration), 12 (Modern); fethedilmişse dörtte biri.[LI]Topraklarındaki [B]Natural Wonder'lar[/B]: 10'ar.[LI]Exploration'da sergilenen [B]Relic'ler[/B]: 3'er; Modern'de [B]Artifact'ler[/B]: 5'er.[LI][B]Celebration'lar[/B]: Entertainment araştırıldıktan sonra Age başına 2.[LI][B]Unique Improvement'lar[/B] (bir Settlement'taki her tür için 1) ve [B]Unique Quarter Building'leri[/B] (Age'e göre 1, 2 ya da 4), artı Breathtaking karolu Resort Town'lar gibi Modern bonusları.[/BLIST]",
+       "Antiquity'den planla: Natural Wonder'lara yakın yerleş, Wonder'ları yüksek Production'lı bir City'de kur, Celebration'lar için Happiness'ı yüksek tut, Exploration'da Relic'ler için bir Religion kur, Modern'de Artifact'ler için Explorer gönder."
+      ]
+     },
+     {
+      "q": "Economic zaferi nasıl kazanırım?",
+      "paragraphs": [
+       "Herkesten çok daha fazla [B]GDP[/B] gerekir. GDP her tur şunlardan kazanılır:",
+       "[BLIST][LI][B]City'lere[/B] (Town'lara değil) slotlanmış City ve Bonus Resource'ları: The Wheel'den sonra 1'er.[LI]City'lere slotlanmış ithal Resource'lar: Skilled Trades'ten sonra 1'er.[LI]Güncel Age'in [B]Gold Building'leri[/B]: Currency'den sonra 2'şer.[LI]Exploration'da eve dönen [B]Treasure Convoy'lar[/B]: Cargo başına 20.[LI]Modern'de herhangi bir Settlement'a slotlanmış [B]Factory Resource'ları[/B]: Mass Production'dan sonra 2'şer.[/BLIST]",
+       "Çok Resource ve Resource Slot topla, dost komşularla Trade Route çalıştır, Exploration'da Treasure Resource'lu Distant Lands'e yerleş, Modern'de Rail Station'lar ve Factory'ler kur."
+      ]
+     },
+     {
+      "q": "Military zaferi nasıl kazanılır - Domination nedir?",
+      "paragraphs": [
+       "[B]Military zaferi[/B] herkesten çok daha fazla [B]Dominion[/B] ister. Kontrolündeki her Settlement 4 eder; bir orijinal Capital +4 daha, Distant Lands'teki bir Settlement +1, ele geçirilmiş bir Settlement +1, karşıt Ideology'li bir liderden alınmışsa +2.",
+       "[B]Domination[/B] zaferi farklıdır: diğer medeniyetlere ait her Settlement'ı ele geçir (Independent Power'lar ve City-State'ler sayılmaz). Exploration ve Modern Age'lerde mümkündür; Antiquity'de yalnız Single Age Game'de.",
+       "Fetih plan ister: önce Relationship'i düşür, War Support için Influence biriktir, Fortified District'lere karşı Siege birlikleri getir; ele geçirilen Settlement'ların Unrest'e düştüğünü, barış anlaşmasıyla alınanların düşmediğini unutma."
+      ]
+     },
+     {
+      "q": "Scientific zaferi nasıl kazanırım?",
+      "paragraphs": [
+       "[B]100 Innovation[/B] ve ardından zafer geri sayımı boyunca etkin bir [B]Launch Pad[/B] (bir Modern Age Building'i) gerekir. Aynı anda birden çok oyuncu geri sayımda olabilir; bütün Launch Pad'lerin yağmalanır ya da alınırsa geri sayım durur.",
+       "Innovation şunlardan gelir: Antiquity'de sergilenen Codex'ler (1'er), Chart the Stars ve Spherical Earth (Antiquity), Heliocentric Model ve Discover Calculus (Exploration), Break the Sound Barrier, Trans-Oceanic Flight, Launch Satellite ve Radio Telescope (Modern) gibi Project'ler, Crewed Space Flight Preparation (15, tekrarlanabilir), pek çok Technology Mastery (2-5) ve bazı Wonder'lar (3).",
+       "Science güçlü City'ler ister: yüksek bitişiklikli Science Building'leri, Town'larla beslenen Specialist'ler, Tech Mastery'leri ve Project'ler için yüksek Production'lı bir City. Güvence için ikinci bir Launch Pad kur."
+      ]
+     },
+     {
+      "q": "Kimse kazanamazsa ne olur?",
+      "paragraphs": [
+       "Modern Age kazanansız biterse [B]Score zaferi[/B] belirler. Herhangi bir zafer geri sayımında geçirdiğin her tur 1.000 puan eder; her zafer yolundaki sıran 1.000 eksi 10 çarpı sıralaman kadar puan verir; her Major Triumph 1 puan ekler.",
+       "Yani bitiremediğin bir geri sayım bile sayılır. Fırsat buldukça geri sayımlara gir."
+      ]
+     },
+     {
+      "q": "Hangi zafere oynamalıyım?",
+      "paragraphs": [
+       "Liderinin, toprağının ve komşularının desteklediği yola oyna; ama kesin kararı Victory panelinin gerçek sayılar gösterdiği Exploration Age'de ver.",
+       "[BLIST][LI][B]Çok Natural Wonder, Mountain, Wonder seven bir lider[/B] - Cultural.[LI][B]Bol Resource, kıyılar ve dost komşular[/B] - Economic.[LI][B]Kalabalık toprak, saldırgan komşular, askerî bir lider[/B] - Military.[LI][B]Yüksek City'lere alan ve bir bilim lideri[/B] - Scientific.[/BLIST]",
+       "Ustalar bir ana yol, bir yedek tutar. Her rakibin ilerlemesini de izlerler: Hinder Research gibi bir Sanction bilim rakibini yavaşlatır, bir Wonder şehrini almak kültür rakibini sarsar, bir Launch Pad'i yağmalamak uzay yarışını durdurur."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Savaş ve savunma",
+    "items": [
+     {
+      "q": "İmparatorluğumu erken dönemde nasıl savunurum?",
+      "paragraphs": [
+       "İlk tehdidin genellikle düşmanca bir [B]Independent Power[/B]'dır (kırmızı çerçeveli). Settlement'larının yakınında birkaç askerî birlik tut, sonra kaynağa in: köyünün üstüne bir birlik yürütüp onu [B]disperse[/B] et (büyük, tek seferlik bir ödül alırsın) ya da Influence ile [B]Befriend[/B] et; yağmayı keser ve City-State'in olabilir.",
+       "Wall'lar bir District'i 100 ek canlı bir [B]Fortified District[/B] yapar; bir Settlement düşmeden önce bütün Fortified District'leri alınmalıdır. Birlikler de savunurken +3 Combat Strength için bir karoda [B]Fortify[/B] yapabilir. Rough (+3) ya da Vegetated (+2) karolarda savun; Wet karolarda (-2) asla."
+      ]
+     },
+     {
+      "q": "Commander'lar ve Army'ler nasıl çalışır?",
+      "paragraphs": [
+       "Birlikler artık Promotion kazanmaz; [B]Commander'lar[/B] kazanır. Bir Commander, Command Radius'u içindeki çarpışmalardan deneyim toplar, çevresindeki birlikler için Promotion kazanır ve [B]Ageless[/B]'tır: seviyesini sonraki Age'e taşır. Yenilen bir Commander birkaç tur sonra yeniden doğar.",
+       "Bir Commander birlikleri tek parça yürüyen bir Army'de [B]Assemble[/B] edebilir (başta 4 birlik) ve savaşmaları için [B]Deploy[/B] edebilir. Toplanmış Army'ler çok zayıf düşmanları [B]Overrun[/B] edebilir (yaklaşık 5'e 1 üstünlükte). Diğer birlikler uzaktan bir Commander'a [B]Reinforce[/B] olabilir.",
+       "Commander'sız asla savaşa girme; barıştayken de birini bir Settlement merkezine koy, mutsuzluğunu azaltsın."
+      ]
+     },
+     {
+      "q": "Temel muharebe taktikleri neler?",
+      "paragraphs": [
+       "[BLIST][LI][B]Yakın dövüş önde, menzilli arkada.[/B] Menzilli birlikler saldırırken karşılık yemez ama saldırıya uğradıklarında zayıftır.[LI][B]Kanat.[/B] Yandan saldırılar +2 ya da +3 Combat Strength verir, arkadan +5 (Antiquity'de Military Training araştırıldıktan sonra).[LI][B]Araziyi kullan.[/B] Rough ve Vegetated karolar hareketi bitirir ve savunana yarar; Minor River'dan saldıran ceza yer; Vegetation ve Mountain'lar menzilli birliklerin görüşünü keser.[LI]Fortified District'lere ve deniz birliklerine karşı [B]Siege birlikleri getir[/B].[LI][B]Yoğunlaş.[/B] Deploy edilmiş bir Commander'ın Focus Fire ve Coordinated Attack komutlarını kullan.[LI]Düşman toprağında [B]yağmalayarak iyileş[/B] ve her saldırıdan önce çarpışma önizlemesini oku.[/BLIST]"
+      ]
+     },
+     {
+      "q": "Bir savaşı akıllıca nasıl başlatırım?",
+      "paragraphs": [
+       "[B]Hostile[/B] olmayan bir lidere savaş, [B]Surprise War[/B]'dur ve War Support cezası yersin. Önce Relationship'i düşür (Sanction'lar, kınama, espionage) ta ki Hostile olana dek; sonra cezasız bir [B]Formal War[/B] ilan et.",
+       "War Support satın almak için Influence biriktir: desteği az olan taraf Combat Strength ve Happiness kaybeder. Hedefinin müttefiklerine ve City-State'lerine bak: savaşa katılırlar. Bir savaş, barış önerilebilmesi için en az 10 tur sürer; barış anlaşmasıyla el değiştiren Settlement'lar Unrest'siz gelir.",
+       "Ele geçirilen bir Settlement'ı yakmak (raze) seni Settlement Limit'in altında tutar ama Age'in geri kalanı boyunca Influence gelirini düşürür."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "En iyiler gibi düşünmek",
+    "items": [
+     {
+      "q": "Büyük oyuncuyu iyisinden ayıran alışkanlıklar neler?",
+      "paragraphs": [
+       "[BLIST][LI][B]Her Age için bir hedef.[/B] Her Age'in başında zafer yolunu, iki üç Triumph'ı ve sonraki medeniyetini yaz.[LI][B]Boşta kaynak yok.[/B] Kullanılmadan bekleyen Gold, Influence, Production ve Resource Slot'ları çöpe giden turlardır.[LI][B]Tur listesi.[/B] Büyüme seçimleri, üretim kuyrukları, her Settlement'ta Happiness, Gold geliri, Victory paneli.[LI][B]Rakip takibi.[/B] Her zafer yolunda kimin önde olduğunu ve geri sayıma girmeden ne yapacağını bil.[LI][B]Geçiş planı.[/B] Taşıma sınırlarının üstünü harca, Triumph'ları bitir, Capital'ı ve orduyu hazırla.[LI][B]Sayıları öğrenmek.[/B] Bu sayfadaki eşikleri ve geldikleri sayfalardaki ayrıntıları bil.[/BLIST]"
+      ]
+     },
+     {
+      "q": "Yerleşmeden önce haritayı nasıl okurum?",
+      "paragraphs": [
+       "Sırasıyla şunları ara: [B]Fresh Water[/B] (Settlement ömrü boyunca her tur beş Happiness), [B]Resource[/B] kümeleri, [B]Natural Wonder'lar[/B] (her Age +%50 büyüyen üretim ve Tourism), [B]kıyılar ve Navigable River'lar[/B] (Food ve Gold bitişikliği, deniz birlikleri, ticaret), [B]Mountain'lar[/B] (Culture ve Happiness bitişikliği) ve [B]savunulabilir[/B] bir konum.",
+       "Orman, dağ, kıyı, nehir ve Natural Wonder komşusu karoların [B]Appeal[/B]'ı vardır: Charming karolar işlenince +1 Happiness, Breathtaking karolar +2 verir.",
+       "Başka bir liderin dibine yerleşmek onu kızdırır; çok uzağa yerleşmek savunmanı ve yollarını gerer. Derli toplu bir çekirdek hedefle, sonra sınırındaki kilit noktaları al."
+      ]
+     },
+     {
+      "q": "Legend'ları ve Memento'ları nasıl kullanmalıyım?",
+      "paragraphs": [
+       "[B]Legends[/B] sistemi oyundan oyuna seni izler. Legend Challenge'ları tamamlamak (kaybetsen bile) [B]Foundation Path[/B] (50 seviye, bütün liderlerin ortak yolu) ve her [B]Leader Path[/B] (10 seviye) için Legend XP kazandırır.",
+       "Bu yollar [B]Memento[/B]'ları açar: liderin için kuşam. Her lider iki tane kuşanabilir, her Age geçişinde değiştirebilirsin ve bir kez açılan Memento her liderle çalışır. Birini zafer yoluna, birini liderinin zayıf yanını örtmeye seç.",
+       "Başlarda Memento slotlarını açmak için Foundation Path'i zorla; sonra koleksiyonu genişletmek için farklı liderler oyna."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "İyi oynamak: oyun kazandıran kararlar",
+    "items": [
+     {
+      "q": "Her Age'in sonunda imparatorluğum nasıl görünmeli?",
+      "paragraphs": [
+       "Standart haritada, normal zorlukta işe yarar bir cetvel:",
+       "[BLIST][LI][B]Antiquity sonu[/B] - 4-6 Settlement; Capital ve bir iki City'de birer Quarter; en az bir Wonder; yolda ya da bitmiş iki üç Major Triumph.[LI][B]Exploration sonu[/B] - 8-12 Settlement, bir kısmı Distant Lands'te ya da uzak kıyıda; Culture oynuyorsan bir Religion ya da güçlü bir Relic koleksiyonu; Economy oynuyorsan çalışan Treasure Convoy'lar; her City ikinci kat Building'lerinde.[LI][B]Modern[/B] - ele geçirilenler dışında yeni Settlement yok; her tur en yakın olduğun tek zafere akar.[/BLIST]",
+       "Bu sayıların çok gerisindeysen çare hemen hep aynıdır: daha erken daha çok Settlement ve bir City'nin işe yaramaz şey ürettiği daha az tur."
+      ]
+     },
+     {
+      "q": "Acil bir şey yokken bir turda ne yapmalıyım?",
+      "paragraphs": [
+       "Her tur aynı kısa listeyi tara - güçlü oyuncuların düşünmeden yaptığı budur:",
+       "[BLIST][LI][B]Kuyruklar[/B] - her City'nin önümüzdeki beş tura değer bir işi, her Town'ın doğru Focus'u var mı?[LI][B]Büyüme[/B] - son Population nereye gitti? İyi bir District'te bir Specialist'e mi, Resource'lu yeni bir karoya mı?[LI][B]Influence[/B] - sıradaki Independent Power ya da Endeavor için yetiyor mu? Harcanmamış Influence israftır.[LI][B]Triumph'lar[/B] - hangisi bitmeye en yakın ve bu tur onu hangi tek hamle ilerletir?[LI][B]Birlikler[/B] - boşta birlik var mı? Fortify et, keşfe yolla ya da Maintenance'tan kurtulmak için dağıt.[/BLIST]"
+      ]
+     },
+     {
+      "q": "Genişlemeyi ne zaman durdurmalıyım?",
+      "paragraphs": [
+       "Yeni bir Settlement verdiğinden fazlasına mal olacaksa dur. Üç işaret o anın geldiğini söyler:",
+       "[BLIST][LI]Settlement Limit'indesin ve sıradaki, her Settlement'a Happiness'a mal olacak.[LI]Kalan yerler zayıf - Fresh Water yok, Resource yok, bir Town Focus'a malzeme yok.[LI]Bir Settler sekiz on turdan uzun sürecekken aynı Production ihtiyacın olan bir Building'i ya da Wonder'ı bitirebilir.[/BLIST]",
+       "O zaman içe dön: eldeki City'leri büyüt, Quarter'larını doldur, Town'lar onları beslesin. Genişleme, limit yükselince, sonraki Age'in başında geri gelir."
+      ]
+     },
+     {
+      "q": "Kötü bir başlangıçtan nasıl toparlanırım?",
+      "paragraphs": [
+       "Kötü bir başlangıç - tepeler ve tundra, saldırgan bir komşu ya da Resource'suz toprak - erken davranırsan telafi edilir:",
+       "[BLIST][LI][B]Yine de yerleş.[/B] Zayıf bir ikinci yer bile Production'ını ve Influence'ını ikiye katlar. Uzağa yürümek yerine birkaç karo içindeki en iyi noktayı seç.[LI]Karşılaştığın [B]Independent Power'ları Befriend et[/B]. Bir Suzerainty hem bedava bonus hem de eksilen bir tehdittir.[LI][B]Ucuza savun[/B] - sınırda bir River'ın arkasında ya da Hills üstünde bir birlik ve Capital'da Wall'lar erken saldırıların çoğunu durdurur.[LI]Toprağına uyan [B]kolay bir Triumph'a[/B] oyna: Production zengini bir başlangıçta Wonder'lar, engebeli bir yerde Mountain'lardan Science.[/BLIST]",
+       "Age geçişi geride kalanın dostudur: her Age taze başlar ve güçlü bir Exploration, zayıf bir Antiquity'yi kapatabilir."
+      ]
+     },
+     {
+      "q": "Oyunun son on turunda ne yapmalıyım?",
+      "paragraphs": [
+       "En yakın olduğun zaferi say ve her şeyi ona yatır. Culture: son Wonder'ları ve Great Work'leri satın al. Economy: her Resource'u slotla, convoy'ları bitir. Military: en çok Dominion getiren Settlement'ları al, en başta orijinal Capital'ları. Science: her Project'i çalıştır ve Launch Pad'i koru.",
+       "Rakiplerini de izle. Hedefe ilk ulaşan 5 turluk geri sayımı başlatır ve diğerleri onu hâlâ durdurabilir: Launch Pad'i kuran Settlement'ı ele geçir, Economic liderin ticaretini Sanction'la, Tourism taşıyan City'leri al."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Baştan sona bir oyun",
+    "items": [
+     {
+      "q": "1. tur: buraya mı kurulayım, önce yürüyeyim mi?",
+      "paragraphs": [
+       "Settler'ının bastığı yere bak. Karoda [B]Fresh Water[/B] (nehir ya da Lake) ve erişilebilir bir iki Resource varsa olduğun yere kur - bir Capital'ın ürettiği turlar, biraz daha güzel bir yerden değerlidir.",
+       "Yalnızca tek hamle gerçek bir kusuru düzeltiyorsa yürü: Fresh Water'a, kıyıya ya da bir Resource kümesine ulaşmak. İki tur ve üzeri yürüyüş neredeyse hiç etmez. Map rehberindeki \"How do I read a settling site?\" tam listedir.",
+       "Sonra ilk üretimi ayarla (genellikle doğru yanıt bir Scout'tur) ve ilk araştırmayı toprağının sunduğuna yönelt - kıyı başlangıcı Sailing ister, Resource zengini başlangıç onları işleyen teknolojiyi."
+      ]
+     },
+     {
+      "q": "1-20. turlar: iyi bir açılış neye benzer?",
+      "paragraphs": [
+       "Üç iş, aynı anda:",
+       "[BLIST][LI][B]Haritayı gör[/B] - bir (ya da iki) Scout komşuları, Independent Power'ları, Natural Wonder'ları ve sonraki Settler'larının yerlerini bulur. Yol üstündeki Discovery'ler küçük ödüller öder.[LI][B]Büyü ve genişle[/B] - Capital'ı büyütmeyi sürdür ve ilk Settler'ı erken çıkar; ikinci Settlement ürettiğin her şeyi aşağı yukarı ikiye katlar.[LI][B]İlk temasları kur[/B] - liderlerle tanış, Agenda'larını oku (Leaders rehberi nasıl oynanacağını anlatır), bir Independent Power'ı Befriend etmeye başla ve Influence'ı geldikçe harca; asla birikip beklemesin.[/BLIST]",
+       "Saldırgan bir komşu yakın değilse evde bir iki Warrior şimdilik yeterli ordudur. 20. turda ikinci Settlement kurulmuş ya da yolda, bir Pantheon görünürde ve Capital'da ilk Happiness ya da Warehouse Building'i yükseliyor olmalı."
+      ]
+     },
+     {
+      "q": "Bir komşu erken düşmanlaşırsa beni ne kurtarır?",
+      "paragraphs": [
+       "Arazi ve surlar; birlik sayısı değil. Sınırda bir River'ın arkasına ya da Hills üstüne bir birlik koy, tehdit altındaki Settlement'ta Wall'lar kur ve saldırgan savunma bonuslarında kırılsın. Fortify etmiş bir yakın dövüşçünün arkasındaki menzilli birlikler maliyetlerinin çok üstünde tutar - mekanikler Units rehberinin savunma sorularında.",
+       "Öteki yarı diplomasidir: Relationship'i düzelt, Agenda'sını çiğneme; savaş yine de gelirse, sana ilan edilen bir savaşın War Support'u senin lehine çevirdiğini hatırla. Atlatılan bir erken savaş, saldırganı çoğu kez senden geride bırakır."
+      ]
+     },
+     {
+      "q": "Antiquity ortası: aslında neye çalışıyorum?",
+      "paragraphs": [
+       "[B]Triumph'lara[/B]. Zaten yaptığın işe uyan iki üçünü seç - Production zengini başlangıçta Wonder'lar, bilim başlangıcında Codex'ler, savaş iyi gidiyorsa fetih - ve bitir. Her kilometre taşı hem şimdi öder hem sonraki Age'e avantaj istifler; hangi Set'in ne istediğini Ages rehberi listeler.",
+       "İmparatorluğun biçimlendiği dönem de budur: Settlement sayın limite yaklaşır (üstündeki her Settlement her yere -5 Happiness), City'ler ilk Quarter'larını alır ve bu oyunun hangi zafer ailesine - Culture, Economy, Military, Science - yaslandığını seçiyor olmalısın.",
+       "Faydalı bir orta oyun alışkanlığı: her on turda bir, hangi Triumph ilerledi, hangi City bir Quarter büyüttü, hangi rakip güçlendi diye sor. Yanıtların hiçbiri hoşuna gitmiyorsa kuyruklar yanlış demektir."
+      ]
+     },
+     {
+      "q": "Age bitiyor. Son turlar neye benzemeli?",
+      "paragraphs": [
+       "Hâlâ değeri olanı bitir, geçişten sağ çıkmayacak olanı durdur: bitmek üzere olan Wonder'ı ve son Triumph kilometre taşını tamamla, yoksa yanacak Gold ve Influence'ı harca, orduyu konumlandır, bitiremeyeceğin savaşları kapat.",
+       "Age ile birlikte kapanan sistemleri de yokla - alınmamış bir Pantheon sonsuza dek gider, Antiquity'nin özgün birlikleri bir daha eğitilemez. Tam liste Ages rehberinin son-on-tur sorusunda.",
+       "Kısacası: hiçbir kuyrukta, sonraki Age'in çöpe çevireceği bir şey olmamalı."
+      ]
+     },
+     {
+      "q": "Geçişte doğru seçimleri nasıl yaparım?",
+      "paragraphs": [
+       "Üç karar birlikte gelir:",
+       "[BLIST][LI][B]Sonraki medeniyet[/B] - tarihsel eşleşmeyi değil, liderine ve hedeflediğin zafere hizmet edeni seç. Her lider sayfasındaki rotalar ve Game plan'lar seçenekleri serer; açma koşullarını Civilizations rehberi anlatır.[LI][B]Continuity mi Regroup mu[/B] - Continuity serveti taşır; Regroup orduyu bedavaya yeniden kurar. Barışçıl oyunlar çoğunlukla Continuity, gergin sınırlar Regroup ister.[LI][B]Dedication'lar[/B] - yeni medeniyetinin zaten yapacağı işi katlayan üçünü al.[/BLIST]",
+       "Bunların hiçbiri sonradan değiştirilemez; buradaki bir dakikalık düşünce, başka her yerdeki on dakikadan değerlidir."
+      ]
+     },
+     {
+      "q": "Exploration başlıyor: yeni Age'in ilk turunda ne değişir?",
+      "paragraphs": [
+       "Tahta yeniden açılır. Yeni civic'ler ve teknolojiler, yeniden genişleme payı veren yeni bir Settlement Limit ve aynı anda başlayan iki yarış: [B]Religion[/B] (erken kur ya da bilinçli olarak vazgeç - Religion rehberi tartar) ve [B]açık deniz[/B] - Distant Lands'e ilk varan filolar en iyi koloni yerlerini, Treasure Resource'ları ve Natural Wonder'ları kapar.",
+       "Denize açılırken iç cepheyi unutma: City'lerin eski Building'lerin üstüne overbuild yapıyor, Age'in Quarter'larını başlatıyor ve yeni medeniyetin civic'lerini işliyor olmalı. Harita bu Age yeni Resource'lar da dağıtır - ufku değil, kendi sınırlarını da yeniden keşfet."
+      ]
+     },
+     {
+      "q": "Exploration ekonomisi nasıl kurulur?",
+      "paragraphs": [
+       "Hazineyle. Distant Lands'te Treasure Resource'lu Settlement'lar eve [B]Treasure Convoy[/B] gönderir - onlara eskort ver; varan her Cargo hem sonrası için Economic zafere sayılır hem şimdi her şeyi finanse eder.",
+       "Convoy'ların yanında: daha çok Trade Route, City'lere slotlanmış Resource'lar ve City-State'ler üzerinde Suzerainty. Exploration'ı zengin bitiren imparatorluk Modern Age'e seçeneklerle girer; fakir bitiren alışveriş listesiyle.",
+       "Deniz gücü sen değilsen, olanla ticaret yap - ithal Resource'lar da City'lerinde sayılır ve Map rehberinin ticaret soruları rotanın nereye uzanabileceğini gösterir."
+      ]
+     },
+     {
+      "q": "Age ortasında bir Crisis vurdu. Nasıl atlatırım?",
+      "paragraphs": [
+       "Crisis'ler şansla değil hazırlıkla atlatılır: başlamadan önce bir Happiness yastığı tut, planını en az acıtan Crisis Policy'leri seç (nasılını Government rehberi anlatır) ve özgül tehdidi çöz - dinî huzursuzluğa Missionary'ler ve Temple'lar, ayaklanmalara garnizonlar, vebaya tecrit ve iyileşme.",
+       "Rakibin tökezlerken temiz atlatılan bir Crisis, kazanılmış bir savaş kadar eder. Ages rehberi her Crisis'i adıyla işler."
+      ]
+     },
+     {
+      "q": "Modern Age açılıyor: ilk on tur neyi belirler?",
+      "paragraphs": [
+       "Neredeyse her şeyi. Erkenden bir [B]Ideology[/B] benimse (civic'leri ve Tradition'ları zamanla birikir), City'lerini Modern Building'lerle overbuild et ve tek zafere bağlan - bundan sonra kazanamayacağın bir yarışa harcanan her tur, rakiplerine verilmiş bir turdur.",
+       "İlk iki Age'in biriktirdiğini de say: Wonder'lar, Relic'ler ve Artifact'ler artık Tourism; slotlanmış Resource'lar GDP; Settlement'lar Dominion; Codex'ler Innovation besler. Ages altındaki zafer sayfaları her birini puanlar.",
+       "Diğer oyunculara da bak: kim neye yakın ve onu ne yavaşlatır."
+      ]
+     },
+     {
+      "q": "Ordum Age'den Age'e nasıl değişmeli?",
+      "paragraphs": [
+       "Antiquity ordusu küçük ve savunmacıdır: birkaç yakın dövüş ve menzilli birlik, Promotion toplayan bir Army Commander. Exploration denizi ekler - en azından convoy eskortları, Distant Lands önemliyse gerçek bir donanma - Antiquity'den gelen Commander deneyimini korur. Modern Age birleşik kuvvettir: yükseltilmiş kıdemliler, kuşatma, hava gücü ve her birlik bir Commander'ın yarıçapında.",
+       "Üç Age'in iki değişmezi: barışta hazinenin ve sınırlarının haklı çıkardığından büyük ordu tutma ve bitiremeyeceğin bir savaşın ortasında Age geçişine girme. Her Age kadrosunun ne işe yaradığını Units rehberi anlatır."
+      ]
+     },
+     {
+      "q": "Rakiplerimin ne yaptığını nasıl okurum?",
+      "paragraphs": [
+       "Üç sinyali izle. [B]Relationship'ler[/B] - Unfriendly'ye kayan bir lider ordusunun nereye döneceğini söylüyordur; nedenini lider sayfasındaki Agenda'sı söyler. [B]Harita[/B] - bir yere yürüyen Settler'lar, toplanan bir filo, yükselen bir Wonder birer ilandır. [B]Skorlar[/B] - Triumph ilerlemesi ve Modern Age'de her zaferin sayacı, kimin büyük göründüğünü değil kimin gerçekten kazandığını gösterir.",
+       "Sonra erken davran: bir Sanction, bir karşı ittifak, bir savunma anlaşması ya da iyi zamanlanmış bir savaş, lider öne geçmeden önce çok daha ucuzdur."
+      ]
+     },
+     {
+      "q": "Her zaferi nasıl bitiririm?",
+      "paragraphs": [
+       "[BLIST][LI][B]Culture[/B] - Tourism'e sahip ol: Wonder'lar, Relic'ler, Artifact'ler, Natural Wonder'lar, Celebration'lar. Toplamın barajı aşana dek kaz, satın al, inşa et.[LI][B]Economy[/B] - her Resource'u slotla, her Convoy'u indir, Factory'leri besle ve Gold Building'lerini güncel tut.[LI][B]Military[/B] - en çok Dominion eden Settlement'ları al: önce orijinal Capital'lar, sonra Distant Lands ve karşıt Ideology'li rakipler.[LI][B]Science[/B] - araştır, uzay Project'lerini çalıştır, Launch Pad'i kur ve savun.[/BLIST]",
+       "Çizgiyi geçtiğinde kısa bir geri sayım başlar - o son turlar boyunca elindekini koru, oyun senindir."
+      ]
+     },
+     {
+      "q": "Bir rakip geri sayımı önce başlattı. Bitti mi?",
+      "paragraphs": [
+       "Hayır - geri sayım bir alarm, bir son değil. Her zafer kesilebilir: Launch Pad'li City'yi ele geçir ya da kuşat, Tourism taşıyan City'leri al, Economic liderin convoy'larını batırıp ticaretini Sanction'la ya da bir fatihin elindekini kurtar.",
+       "Genellikle savaş gerektirir. Ordun zamanında ulaşamayacaksa kendi zaferini it - kazanan, geri sayımı başlatan değil bitirendir."
+      ]
+     },
+     {
+      "q": "Oyun bitti. Bir sonrakinden önce neyi gözden geçirmeye değer?",
+      "paragraphs": [
+       "İki soru her istatistik ekranından iyidir: [B]turlar nereye gitti[/B] (boş City'ler, harcanmamış Influence, çok geç kovalanan bir zafer) ve [B]hangi seçimi değiştirirdin[/B] - medeniyet seçimleri, girdiğin ya da girmediğin savaş, görmezden geldiğin Triumph'lar.",
+       "Sonra ileri taşı: liderin Legend ilerlemesi ve Memento kazandı; sonraki oyun bir adım önde başlar. Farklı bir lider ailesi seç - kurucu, fatih, tüccar, bilimci - ve aynı harita kuralları bambaşka okunur."
+      ]
+     }
+    ]
+   }
+  ]
+ }
+};
