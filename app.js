@@ -1631,6 +1631,7 @@
     // No panel header -- the toolbar's #page-title already shows "Units", and
     // each age group carries its own <h3>.
     var unitGuide = sectionFaqHtml("UNITS", "");
+    if (unitGuide && (window.CIVPEDIA_SECTION_FAQ_TR || {}).UNITS) unitGuide = guideLangHtml() + unitGuide;
     // (acc-exclusive: one Age open at a time, as on a civilization's page)
     var html = '<div class="page-panel unit-index-panel acc-exclusive' + (unitGuide ? ' page-panel--faq' : '') + '">';
     // the section's emblem over the Age panels, as on the other homes
@@ -1781,6 +1782,7 @@
     html += '</div>';
     contentEl.innerHTML = restoreGameRefs(html);
     bindChapterAccordions();
+    bindGuideLang();
     bindPaintReveal();
     contentEl.querySelectorAll(".unit-cat > .unit-cat-head").forEach(function (head) {
       head.addEventListener("click", function () {
@@ -2382,6 +2384,11 @@
       btn.addEventListener("click", function (ev) {
         ev.stopPropagation();
         try { localStorage.setItem("guideLang", btn.getAttribute("data-lang")); } catch (e) {}
+        if (activePageId && activePageId.indexOf("__HOME__") === 0) {
+          renderSectionHome(activePageId.slice(8));
+          return;
+        }
+        if (activePageId === "__UNIT_INDEX__") { renderUnitIndex(); return; }
         var intro = findIntroEntry();
         if (intro) navigateToPage(intro.page, intro.groupTitle, intro.sectionId);
       });
@@ -2390,8 +2397,8 @@
 
   function sectionFaqHtml(sectionId, hero, plain) {
     var faq = (SECTION_FAQ || window.CIVPEDIA_SECTION_FAQ || {})[sectionId] || {};
-    if (sectionId === "CONCEPTS" && guideLang() === "tr" && (window.CIVPEDIA_SECTION_FAQ_TR || {}).CONCEPTS) {
-      faq = window.CIVPEDIA_SECTION_FAQ_TR.CONCEPTS;
+    if (guideLang() === "tr" && (window.CIVPEDIA_SECTION_FAQ_TR || {})[sectionId]) {
+      faq = window.CIVPEDIA_SECTION_FAQ_TR[sectionId];
     }
     var html = "";
     (faq.groups || []).forEach(function (g) {
@@ -2448,7 +2455,9 @@
     // (the older Government home, kept for a build without its guide)
     var isGovHome = sectionId === "GOVERNMENT" && GOV_FAQ.length && !isFaqHome;
     // the section's own head (its tree, its emblem), then its guide under it
-    var guide = isFaqHome ? sectionFaqHtml(sectionId, "") : "";
+    var guide = isFaqHome
+      ? ((window.CIVPEDIA_SECTION_FAQ_TR || {})[sectionId] ? guideLangHtml() : "") + sectionFaqHtml(sectionId, "")
+      : "";
     // a tree home's emblem stands over its title button, unnamed (the button is the name)
     var treeEmblem = HOME_ART[sectionId] && HOME_ART[sectionId].portrait
       ? '<div class="intro-hero tree-home-emblem"><div class="intro-emblem"><div class="intro-cring">' +
@@ -2472,6 +2481,7 @@
     bindTipHandlers();
     bindLinkedIconHandlers();
     bindPaintReveal();
+    bindGuideLang();
     if (isTechHome) {
       contentEl.querySelectorAll(".tt-head-btn").forEach(function (btn) {
         btn.addEventListener("click", function () {
