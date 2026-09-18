@@ -49,12 +49,11 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "AGES:AGES_5": {
-  "src": "images/paintings/scene/ages/ages_5.jpg",
+  "src": "images/paintings/scene/ages/ages_5_w.jpg",
   "name": "Triumphs",
-  "aspect": "65/100",
-  "credit": "Lawrence Alma-Tadema",
-  "source": "File:The Triumph of Titus Alma Tadema.jpg",
-  "license": "Public domain"
+  "credit": "Carle Vernet",
+  "source": "File:The Triumph of Aemilius Paulus MET DT11657.jpg",
+  "license": "CC0"
  },
  "AGES:AGES_6": {
   "src": "images/paintings/scene/ages/ages_6.jpg",
@@ -79,12 +78,11 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "AGES:AGES_10": {
-  "src": "images/paintings/scene/ages/ages_10.jpg",
+  "src": "images/paintings/scene/ages/ages_10_w.jpg",
   "name": "Victories",
-  "aspect": "66/100",
-  "credit": "Wikimedia Commons",
-  "source": "File:Nike of Samothrake Louvre Ma2369 n4.jpg",
-  "license": "Public domain"
+  "credit": "א (Aleph)\n\nCreator: Johann Gottfried Schadow",
+  "source": "File:Brandenburg Gate Quadriga at Night.jpg",
+  "license": "CC BY-SA 2.5"
  },
  "AGES:AGES_11": {
   "src": "images/paintings/scene/ages/ages_11.jpg",
@@ -101,11 +99,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "AGES:AGES_15": {
-  "src": "images/paintings/scene/ages/ages_15.jpg",
+  "src": "images/paintings/scene/ages/ages_15_w.jpg",
   "name": "Invasion (Antiquity)",
-  "aspect": "66/100",
-  "credit": "Joseph-Noël Sylvestre",
-  "source": "File:Joseph-Noël Sylvestre- Sac de Rome.jpg",
+  "credit": "Ulpiano Checa",
+  "source": "File:Ulpiano Checa La invasión de los bárbaros.jpg",
   "license": "Public domain"
  },
  "AGES:AGES_16": {
@@ -165,27 +162,24 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "AGES:VICTORY_ECONOMIC": {
-  "src": "images/paintings/scene/ages/victory_economic.jpg",
+  "src": "images/paintings/scene/ages/victory_economic_w.jpg",
   "name": "Economic Victory",
-  "aspect": "97/100",
-  "credit": "Emanuel de Witte",
-  "source": "File:The courtyard of the Beurs in Amsterdam, by Emanuel de Witte.jpg",
+  "credit": "Gerrit Adriaenszoon Berckheyde",
+  "source": "File:Het stadhuis op de Dam te Amsterdam Rijksmuseum SK-A-1733.jpeg",
   "license": "Public domain"
  },
  "AGES:VICTORY_MILITARY": {
-  "src": "images/paintings/scene/ages/victory_military.jpg",
+  "src": "images/paintings/scene/ages/victory_military_w.jpg",
   "name": "Military Victory",
-  "aspect": "84/100",
-  "credit": "Jacques-Louis David",
-  "source": "File:Jacques-Louis David - Napoleon Crossing the Alps - Kunsthistorisches Museum.jpg",
+  "credit": "Jean-Louis-Ernest Meissonier",
+  "source": "File:1807, Friedland.jpg",
   "license": "Public domain"
  },
  "AGES:VICTORY_SCIENTIFIC": {
-  "src": "images/paintings/scene/ages/victory_scientific.jpg",
+  "src": "images/paintings/scene/ages/victory_scientific_w.jpg",
   "name": "Scientific Victory",
-  "aspect": "99/100",
-  "credit": "Neil Armstrong",
-  "source": "File:Aldrin Apollo 11 original.jpg",
+  "credit": "NASA/Neil Armstrong/Yuri Krasilnikov",
+  "source": "File:Panorama 4 - Tranquility Base.jpg",
   "license": "Public domain"
  },
  "AGES:VICTORY_SCORE": {
@@ -210,11 +204,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "CC BY-SA 4.0"
  },
  "MEMENTOS": {
-  "src": "images/paintings/scene/concepts/mementos.jpg",
+  "src": "images/paintings/scene/concepts/mementos_w.jpg",
   "name": "Mementos",
-  "aspect": "108/100",
   "credit": "Frans Francken the Younger",
-  "source": "File:Frans Francken (II), Kunst- und Raritätenkammer (1636).jpg",
+  "source": "File:FranckenOrteliusLipsius.png",
   "license": "Public domain"
  },
  "MEMENTO_LIST": {
@@ -400,11 +393,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "PRODUCTION_1@CONCEPTS": {
-  "src": "images/paintings/scene/concepts/production_1.jpg",
+  "src": "images/paintings/scene/concepts/production_1_w.jpg",
   "name": "Production: Yield",
-  "aspect": "102/100",
-  "credit": "William Bell Scott",
-  "source": "File:William Bell Scott (1811-1890) - In the Nineteenth Century the Northumbrians Show the World what Can Be Done with Iron and Coal - 584372 - National Trust.jpg",
+  "credit": "Philip James de Loutherbourg",
+  "source": "File:Philipp Jakob Loutherbourg d. J. 002.jpg",
   "license": "Public domain"
  },
  "FOOD_1@CONCEPTS": {
@@ -415,12 +407,11 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "GOLD_1@CONCEPTS": {
-  "src": "images/paintings/scene/concepts/gold_1.jpg",
+  "src": "images/paintings/scene/concepts/gold_1_w.jpg",
   "name": "Gold Income",
-  "aspect": "96/100",
-  "credit": "Quinten Metsys",
-  "source": "File:Metsys, Quentin - Le prêteur et sa femme, 1514, INV 1444 ; MR 821.jpg",
-  "license": "Public domain"
+  "credit": "Dosseman",
+  "source": "File:Rembrandt Parable of the Rich Man (The moneychanger) 1627 Gemäldegalerie Berlin 9405.jpg",
+  "license": "CC BY-SA 4.0"
  },
  "GROWTH_1@CONCEPTS": {
   "src": "images/paintings/scene/concepts/growth_1.jpg",
@@ -535,11 +526,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "CC BY-SA 3.0"
  },
  "SPECIALIST_1@CONCEPTS": {
-  "src": "images/paintings/scene/concepts/specialist_1.jpg",
+  "src": "images/paintings/scene/concepts/specialist_1_w.jpg",
   "name": "Specialist",
-  "aspect": "89/100",
-  "credit": "Johannes Vermeer",
-  "source": "File:Johannes Vermeer - The Geographer - Google Art Project.jpg",
+  "credit": "Rembrandt",
+  "source": "File:Rembrandt - The Anatomy Lesson of Dr Nicolaes Tulp.jpg",
   "license": "Public domain"
  },
  "OCEAN_1@CONCEPTS": {
@@ -606,11 +596,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "CC BY-SA 3.0"
  },
  "ONEMORE_1@CONCEPTS": {
-  "src": "images/paintings/scene/concepts/onemore_1.jpg",
+  "src": "images/paintings/scene/concepts/onemore_1_w.jpg",
   "name": "Just One More Turn",
-  "aspect": "85/100",
-  "credit": "Georges de La Tour",
-  "source": "File:Georges de La Tour 006.jpg",
+  "credit": "Joseph Wright of Derby",
+  "source": "File:Joseph Wright of Derby - Philosopher giving a lecture on the orrery - Google Art Project.jpg",
   "license": "Public domain"
  },
  "TEAMPLAY_1@CONCEPTS": {
@@ -685,11 +674,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "COMBAT_4@COMBAT": {
-  "src": "images/paintings/scene/concepts/combat_4.jpg",
+  "src": "images/paintings/scene/concepts/combat_4_w.jpg",
   "name": "Air Combat",
-  "aspect": "74/100",
-  "credit": "Wikimedia Commons",
-  "source": "File:C.R.W. Nevinson - Swooping Down on a Hostile Plane, 1917 - Art.IWMART517.jpg",
+  "credit": "Sydney Carline",
+  "source": "File:Sydney William Carline (1888-1929) - Study for 'The Dead Sea, An Enemy Aeroplane over the Dead Sea, Palestine' - IWM ART 4583 - Imperial War Museums.jpg",
   "license": "Public domain"
  },
  "COMBAT_5@COMBAT": {
@@ -1099,12 +1087,11 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "LEGENDS_2@LEGENDS": {
-  "src": "images/paintings/scene/concepts/legends_2.jpg",
+  "src": "images/paintings/scene/concepts/legends_2_w.jpg",
   "name": "Legends XP",
-  "aspect": "111/100",
-  "credit": "Hagesandros, Athenedoros, and Polydoros",
-  "source": "File:Laocoon and His Sons.jpg",
-  "license": "CC BY-SA 4.0"
+  "credit": "Jean-Auguste-Dominique Ingres",
+  "source": "File:Jean Auguste Dominique Ingres, Apotheosis of Homer, 1827.jpg",
+  "license": "Public domain"
  },
  "LEGENDS_3@LEGENDS": {
   "src": "images/paintings/scene/concepts/legends_3.jpg",
@@ -3576,11 +3563,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "concept art, personal use"
  },
  "IMPROVEMENT_MINE": {
-  "src": "images/paintings/scene/improvements/mine.jpg",
+  "src": "images/paintings/scene/improvements/mine_w.jpg",
   "name": "Mine",
-  "aspect": "65/100",
-  "credit": "Georg Agricola",
-  "source": "File:De re metallica - mining equipment (125711378).jpg",
+  "credit": "Herri met de Bles",
+  "source": "File:Hendrick met de Bles 001.jpg",
   "license": "Public domain"
  },
  "IMPROVEMENT_WOODCUTTER": {
@@ -3612,12 +3598,11 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "CC BY-SA 2.0"
  },
  "IMPROVEMENT_JINJA_LAND": {
-  "src": "images/paintings/scene/improvements/jinja_land.jpg",
+  "src": "images/paintings/scene/improvements/jinja_land_w.jpg",
   "name": "Jinja (Land)",
-  "aspect": "114/100",
-  "credit": "Carla Antonini",
-  "source": "File:Torii gate in Shinto Shrine-Tokyo-Japan.jpg",
-  "license": "CC BY-SA 3.0"
+  "credit": "Basile Morin",
+  "source": "File:Double torii path at Fushimi Inari Taisha Shrine, Kyoto, Japan.jpg",
+  "license": "CC BY-SA 4.0"
  },
  "IMPROVEMENT_JINJA_SEA": {
   "src": "images/paintings/scene/improvements/jinja_sea.jpg",
@@ -3655,12 +3640,11 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Civilization VII art"
  },
  "IMPROVEMENT_STONE_HEAD": {
-  "src": "images/paintings/scene/improvements/stone_head.jpg",
+  "src": "images/paintings/scene/improvements/stone_head_w.jpg",
   "name": "Stone Head",
-  "aspect": "98/100",
-  "credit": "No machine-readable author provided. Luidger assumed (based on copyright claims).",
-  "source": "File:20041229-Olmec Head (Museo Nacional de Antropología).jpg",
-  "license": "CC BY-SA 3.0"
+  "credit": "Mag2017",
+  "source": "File:Cabeza Colosal 3.jpg",
+  "license": "CC BY-SA 4.0"
  },
  "IMPROVEMENT_OPEN_AIR_MUSEUM": {
   "src": "images/paintings/scene/improvements/open_air_museum.jpg",
@@ -3714,11 +3698,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "IMPROVEMENT_MINOR_EMBASSY": {
-  "src": "images/paintings/scene/improvements/minor_embassy.jpg",
+  "src": "images/paintings/scene/improvements/minor_embassy_w.jpg",
   "name": "Minor Embassy",
-  "aspect": "70/100",
-  "credit": "Vittore Carpaccio",
-  "source": "File:Vittore carpaccio, Ambassadors Return to the English Court 02.jpg",
+  "credit": "Didier Descouens",
+  "source": "File:Accademia - Ritorno degli ambasciatori di Vittore Carpaccio Cat.574.jpg",
   "license": "Public domain"
  },
  "IMPROVEMENT_OBSHCHINA": {
@@ -3735,19 +3718,17 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "IMPROVEMENT_CIRCUS_FAIR": {
-  "src": "images/paintings/scene/improvements/circus_fair.jpg",
+  "src": "images/paintings/scene/improvements/circus_fair_w.jpg",
   "name": "Circus Fair",
-  "aspect": "81/100",
   "credit": "Georges Seurat",
-  "source": "File:Georges Seurat - The Circus - Google Art Project.jpg",
-  "license": "Public domain"
+  "source": "File:Circus Sideshow (Parade de cirque) MET DP375450 cropped.jpg",
+  "license": "CC0"
  },
  "IMPROVEMENT_FESTIVAL_GROUNDS": {
-  "src": "images/paintings/scene/improvements/festival_grounds.jpg",
+  "src": "images/paintings/scene/improvements/festival_grounds_w.jpg",
   "name": "Festival Grounds",
-  "aspect": "75/100",
-  "credit": "Charles Hoguet",
-  "source": "File:Charles Hoguet - Markttreiben in einer mittelalterlichen Stadt (1862).jpg",
+  "credit": "David Teniers the Younger",
+  "source": "File:David Teniers II - Kermis - Waddesdon Manor.jpg",
   "license": "Public domain"
  },
  "IMPROVEMENT_TRADING_FACTORY": {
@@ -4347,11 +4328,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "MAP:RESOURCE_WINE": {
-  "src": "images/paintings/scene/map/wine.jpg",
+  "src": "images/paintings/scene/map/wine_w.jpg",
   "name": "Wine",
-  "aspect": "70/100",
-  "credit": "Francisco Goya",
-  "source": "File:Francisco de Goya - La vendimia o El Otoño (1786).jpg",
+  "credit": "Vincent van Gogh",
+  "source": "File:Vincent van Gogh - Red Vineyard at Arles (1888).jpg",
   "license": "Public domain"
  },
  "MAP:RESOURCE_WOOL": {
@@ -4948,11 +4928,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "game art, personal use"
  },
  "NODE_TECH_AQ_AGRICULTURE": {
-  "src": "images/paintings/scene/technologies/agriculture.jpg",
+  "src": "images/paintings/scene/technologies/agriculture_w.jpg",
   "name": "Agriculture",
-  "aspect": "114/100",
-  "credit": "Anonymous Egyptian tomb artist(s)",
-  "source": "File:Egyptian harvest.jpg",
+  "credit": "Painter of the burial chamber of Sennedjem",
+  "source": "File:Maler der Grabkammer des Sennudem 001.jpg",
   "license": "Public domain"
  },
  "NODE_TECH_AQ_SAILING": {
@@ -5000,11 +4979,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "NODE_TECH_AQ_ENGINEERING": {
-  "src": "images/paintings/scene/technologies/engineering.jpg",
+  "src": "images/paintings/scene/technologies/engineering_w.jpg",
   "name": "Engineering",
-  "aspect": "102/100",
-  "credit": "Hubert Robert",
-  "source": "File:Le pont du Gard - Hubert Robert - Musée du Louvre Peintures INV 7650.jpg",
+  "credit": "Samuel Scott",
+  "source": "File:Samuel Scott - The Building of Westminster Bridge - Google Art Project.jpg",
   "license": "Public domain"
  },
  "NODE_TECH_AQ_MATHEMATICS": {
@@ -5023,11 +5001,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "NODE_TECH_EX_CASTLES": {
-  "src": "images/paintings/scene/technologies/castles.jpg",
+  "src": "images/paintings/scene/technologies/castles_w.jpg",
   "name": "Castles",
-  "aspect": "71/100",
-  "credit": "Dietmar Rabich",
-  "source": "File:Lüdinghausen, Burg Vischering -- 2014 -- 5492.jpg",
+  "credit": "Diego Delso",
+  "source": "File:Alcázar, Segovia, España, 2024-06-14, DD 04-06 HDR.jpg",
   "license": "CC BY-SA 4.0"
  },
  "NODE_TECH_EX_METALLURGY": {
@@ -5038,12 +5015,11 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "NODE_TECH_EX_ARCHITECTURE": {
-  "src": "images/paintings/scene/technologies/architecture.jpg",
+  "src": "images/paintings/scene/technologies/architecture_w.jpg",
   "name": "Architecture",
-  "aspect": "82/100",
-  "credit": "Lodovico Cardi September – 1613, also known as Cigoli",
-  "source": "File:Cigoli drawing of El Duomo Florence.jpg",
-  "license": "Public domain"
+  "credit": "Didier Descouens",
+  "source": "File:Ca' Rezzonico - Interno della basilica di San Pietro a Roma - Giampaolo Pannini.jpg",
+  "license": "CC BY-SA 4.0"
  },
  "NODE_TECH_EX_URBAN_PLANNING": {
   "src": "images/paintings/scene/technologies/urban_planning.jpg",
@@ -5096,11 +5072,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "CC BY-SA 4.0"
  },
  "NODE_TECH_MO_INDUSTRIALIZATION": {
-  "src": "images/paintings/scene/technologies/industrialization.jpg",
+  "src": "images/paintings/scene/technologies/industrialization_w.jpg",
   "name": "Industrialization",
-  "aspect": "99/100",
-  "credit": "William Bell Scott",
-  "source": "File:William Bell Scott - Iron and Coal.jpg",
+  "credit": "Joseph Wright of Derby",
+  "source": "File:The Iron Forge Viewed from Without.jpg",
   "license": "Public domain"
  },
  "NODE_TECH_MO_FLIGHT": {
@@ -5125,19 +5100,17 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "NODE_TECH_MO_ROCKETRY": {
-  "src": "images/paintings/scene/technologies/rocketry.jpg",
+  "src": "images/paintings/scene/technologies/rocketry_w.jpg",
   "name": "Rocketry",
-  "aspect": "80/100",
-  "credit": "NASA",
-  "source": "File:Apollo 11 Launch - GPN-2000-000630.jpg",
+  "credit": "NASA Hubble Space Telescope",
+  "source": "File:Launch of Space Shuttle Atlantis on STS-125 Mission (27625669004).jpg",
   "license": "Public domain"
  },
  "NODE_TECH_MO_FUTURE_TECH": {
-  "src": "images/paintings/scene/technologies/future_tech_mo.jpg",
+  "src": "images/paintings/scene/technologies/future_tech_mo_w.jpg",
   "name": "Future Tech",
-  "aspect": "96/100",
-  "credit": "NASA, ESA, and the Hubble Heritage Team (STScI/AURA)",
-  "source": "File:Pillars of creation 2014 HST WFC3-UVIS full-res denoised.jpg",
+  "credit": "Image: \n\nNational Aeronautics and Space Administration  (a U.S. federal government agency; https://www.nasa.gov/)\nEuropean space agency (https://www.esa.int/), Canadian Space Agency (https://www.asc-csa.gc.ca/eng/)\nSpace Telescope Science Institute (https://www.stsci.edu/, science operations center for the Hubble Space Telescope)",
+  "source": "File:NASA’s Webb Reveals Cosmic Cliffs, Glittering Landscape of Star Birth.jpg",
   "license": "Public domain"
  },
  "NODE_TECH_AQ_IRRIGATION": {
@@ -5176,12 +5149,11 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "NODE_TECH_EX_MACHINERY": {
-  "src": "images/paintings/scene/technologies/machinery.jpg",
+  "src": "images/paintings/scene/technologies/machinery_w.jpg",
   "name": "Machinery",
-  "aspect": "74/100",
-  "credit": "Luc Viatour",
-  "source": "File:Aile mobile Luc Viatour.jpg",
-  "license": "Public domain"
+  "credit": "Wikimedia Commons",
+  "source": "File:Balestra gigante - Museo scienza tecnologia Milano 06677 02.jpg",
+  "license": "CC BY-SA 4.0"
  },
  "NODE_TECH_EX_HERALDRY": {
   "src": "images/paintings/scene/technologies/heraldry.jpg",
@@ -5261,11 +5233,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "Public domain"
  },
  "NODE_TECH_MO_NUCLEAR_FISSION": {
-  "src": "images/paintings/scene/technologies/nuclear_fission.jpg",
+  "src": "images/paintings/scene/technologies/nuclear_fission_w.jpg",
   "name": "Nuclear Fission",
-  "aspect": "81/100",
-  "credit": "Department of Energy-Office of Public Affairs, restored by Yann",
-  "source": "File:Enrico Fermi 1943-49.jpg",
+  "credit": "Berlyn Brixner / Los Alamos National Laboratory",
+  "source": "File:Trinity Test Fireball 16ms.jpg",
   "license": "Public domain"
  },
  "NODE_TECH_EX_GUNPOWDER": {
@@ -8046,12 +8017,11 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "CC BY-SA 4.0"
  },
  "WONDER_SANCHI_STUPA": {
-  "src": "images/paintings/scene/wonders/sanchi_stupa.jpg",
+  "src": "images/paintings/scene/wonders/sanchi_stupa_w.jpg",
   "name": "Sanchi Stupa",
-  "aspect": "66/100",
-  "credit": "Biswarup Ganguly",
-  "source": "File:East Gateway - Stupa 1 - Sanchi Hill 2013-02-21 4398.JPG",
-  "license": "CC BY 3.0"
+  "credit": "Bernard Gagnon",
+  "source": "File:Stupa 1, Sanchi 02.jpg",
+  "license": "CC BY-SA 3.0"
  },
  "WONDER_TERRACOTTA_ARMY": {
   "src": "images/paintings/scene/wonders/terracotta_army.jpg",
@@ -8082,11 +8052,10 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "CC BY-SA 3.0"
  },
  "WONDER_MAUSOLEUM_OF_THEODORIC": {
-  "src": "images/paintings/scene/wonders/mausoleum_of_theodoric.jpg",
+  "src": "images/paintings/scene/wonders/theodoric_w.jpg",
   "name": "Mausoleum of Theodoric",
-  "aspect": "94/100",
-  "credit": "ThePhotografer",
-  "source": "File:Mausoleum of Theodoric (Ravenna) - Exterior.jpg",
+  "credit": "Redrumstudio",
+  "source": "File:Ravenna - Mausoleo di Teodorico - 2025-09-11 10-45-49 001.jpg",
   "license": "CC BY-SA 4.0"
  },
  "WONDER_PYRAMIDS": {
@@ -8160,12 +8129,11 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "CC BY-SA 3.0"
  },
  "WONDER_WHITE_TOWER": {
-  "src": "images/paintings/scene/wonders/white_tower.jpg",
+  "src": "images/paintings/scene/wonders/white_tower_w.jpg",
   "name": "White Tower",
-  "aspect": "83/100",
-  "credit": "APK",
-  "source": "File:White Tower (Tower of London).jpg",
-  "license": "CC BY 4.0"
+  "credit": "Rafa Esteve",
+  "source": "File:Aerial Tower of London.jpg",
+  "license": "CC BY-SA 3.0"
  },
  "WONDER_FORBIDDEN_CITY": {
   "src": "images/paintings/scene/wonders/forbidden_city.jpg",
@@ -8232,12 +8200,11 @@ window.CIVPEDIA_SCENE_ART = {
   "license": "CC BY-SA 3.0"
  },
  "WONDER_OXFORD_UNIVERSITY": {
-  "src": "images/paintings/scene/wonders/oxford_university.jpg",
+  "src": "images/paintings/scene/wonders/oxford_w.jpg",
   "name": "Oxford University",
-  "aspect": "68/100",
   "credit": "Diliff",
-  "source": "File:Radcliffe Camera, Oxford - Oct 2006.jpg",
-  "license": "CC BY 2.5"
+  "source": "File:Oxford High Street Facing West, Oxford, UK - Diliff.jpg",
+  "license": "CC BY-SA 4.0"
  },
  "WONDER_PALACIO_DE_BELLAS_ARTES": {
   "src": "images/paintings/scene/wonders/palacio_de_bellas_artes.jpg",
