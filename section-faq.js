@@ -387,6 +387,104 @@ window.CIVPEDIA_SECTION_FAQ = {
       ]
      }
     ]
+   },
+   {
+    "title": "A game from start to finish",
+    "items": [
+     {
+      "q": "Turn 1: found here or walk first?",
+      "paragraphs": [
+       "Look at what your Settler is standing on. Found on the spot if the tile has [B]Fresh Water[/B] (a river or Lake) and a Resource or two in reach - the turns a Capital produces are worth more than a slightly prettier site.",
+       "Walk only when one move fixes a real flaw: reaching Fresh Water, the Coast, or a Resource cluster. Two or more turns of walking almost never pays.",
+       "Then set the first production (a Scout is the usual answer) and pick the first research toward whatever your land offers - a Coast start wants Sailing, a Resource-rich start wants the technology that improves them."
+      ]
+     },
+     {
+      "q": "Turns 1-20: what does a good opening look like?",
+      "paragraphs": [
+       "Three things, in parallel:",
+       "[BLIST][LI][B]See the map[/B] - a Scout (or two) finds neighbours, Independent Powers, Natural Wonders and the sites your next Settlers will take. Discoveries on the map pay small rewards along the way.[LI][B]Grow and expand[/B] - keep the Capital growing and get the first Settler out early; the second Settlement roughly doubles everything you produce.[LI][B]Make first contacts[/B] - meet Leaders, start Befriending an Independent Power, and spend Influence as it comes in; it should never pool unused.[/BLIST]",
+       "A Warrior or two at home is enough army for now unless an aggressive neighbour is close."
+      ]
+     },
+     {
+      "q": "When a neighbour turns hostile early, what saves me?",
+      "paragraphs": [
+       "Terrain and walls, not unit count. Put a unit behind a River or on Hills at the border, build Walls in the threatened Settlement, and let the attacker break against defence bonuses. Ranged units behind a fortified melee unit hold ground far above their cost.",
+       "Diplomacy is the other half: improve the Relationship, avoid breaking their Agenda, and if war still comes, remember that a war declared on you swings War Support your way."
+      ]
+     },
+     {
+      "q": "Mid-Antiquity: what am I actually working toward?",
+      "paragraphs": [
+       "[B]Triumphs[/B]. Pick the two or three that fit what you are already doing - Wonders on a Production start, Codices on a Science start, conquest if a war is going well - and finish them. Each milestone pays now and stacks advantages for the next Age.",
+       "This is also when the empire takes its shape: your Settlement count approaches the limit, Cities get their first Quarters, and you should be choosing which victory family (Culture, Economy, Military, Science) this game is leaning toward."
+      ]
+     },
+     {
+      "q": "The Age is ending. What do the last turns look like?",
+      "paragraphs": [
+       "Finish what still counts and stop what will not survive the transition: complete the nearly-done Wonder and the last Triumph milestone, spend Gold and Influence you would otherwise waste, position your army, and end wars you cannot finish.",
+       "The Ages guide has a full checklist - the short version is: nothing in the queue should be something the next Age makes obsolete."
+      ]
+     },
+     {
+      "q": "At the transition, how do I choose well?",
+      "paragraphs": [
+       "Three choices arrive together:",
+       "[BLIST][LI][B]The next civilization[/B] - pick the one that serves your leader and your intended victory, not just the historical pairing. The routes on each leader page lay the options out.[LI][B]Continuity or Regroup[/B] - Continuity carries wealth forward; Regroup rebuilds your army for free. Peaceful games usually want Continuity, contested borders want Regroup.[LI][B]Dedications[/B] - take the three that multiply what your new civilization will do anyway.[/BLIST]"
+      ]
+     },
+     {
+      "q": "Exploration begins: what changes on turn one of the new Age?",
+      "paragraphs": [
+       "The board reopens. New civics and technologies, a new Settlement Limit with room to expand again, and two new races start at once: [B]Religion[/B] (found one early or decide now to skip it) and the [B]open sea[/B] - the first fleets to the Distant Lands claim the best colony sites, Treasure Resources and Natural Wonders.",
+       "Do not forget the home front while you sail: your Cities should be overbuilding old Buildings and starting the Age's Quarters."
+      ]
+     },
+     {
+      "q": "How does the Exploration economy come together?",
+      "paragraphs": [
+       "Treasure. Settlements in the Distant Lands with Treasure Resources send [B]Treasure Convoys[/B] home - escort them, because every Cargo that arrives counts toward an Economic Victory later and funds everything now.",
+       "Alongside the convoys: more Trade Routes, Resources slotted into Cities, and Suzerainties over City-States. An empire that ends Exploration rich enters the Modern Age with choices; a poor one enters with a shopping list."
+      ]
+     },
+     {
+      "q": "A Crisis hit mid-Age. How do I ride it out?",
+      "paragraphs": [
+       "Crises are survivable by preparation, not luck: keep a Happiness cushion before one starts, take the Crisis Policies that hurt your plan least, and solve the specific threat - Missionaries and Temples against religious unrest, garrisons against revolts, isolation and healing against plague.",
+       "A Crisis handled cleanly while a rival stumbles is worth as much as a won war. The Ages guide covers each Crisis by name."
+      ]
+     },
+     {
+      "q": "The Modern Age opens: what do the first ten turns decide?",
+      "paragraphs": [
+       "Almost everything. Adopt an [B]Ideology[/B] early (its civics and Traditions compound with time), overbuild your Cities with Modern Buildings, and commit to one victory - from here on, every turn spent on a race you will not win is a turn given to your rivals.",
+       "Check the other players too: who is closest to what, and what would slow them down."
+      ]
+     },
+     {
+      "q": "How do I close out each victory?",
+      "paragraphs": [
+       "[BLIST][LI][B]Culture[/B] - own Tourism: Wonders, Relics, Artifacts, Natural Wonders, Celebrations. Dig, buy and build until your total clears the bar.[LI][B]Economy[/B] - slot every Resource, land every Convoy, keep Factories fed and Gold Buildings current.[LI][B]Military[/B] - take the Settlements worth the most Dominion: original Capitals above all, then Distant Lands and rivals of the opposing Ideology.[LI][B]Science[/B] - research, run the space projects, build and defend the Launch Pad.[/BLIST]",
+       "When you cross the line a short countdown starts - hold what you have for those final turns and the game is yours."
+      ]
+     },
+     {
+      "q": "A rival starts their countdown first. Is it over?",
+      "paragraphs": [
+       "No - the countdown is an alarm, not an ending. Every victory can be interrupted: capture or besiege the City with the Launch Pad, take the Cities carrying their Tourism, sink the convoys and Sanction the trade of an Economic leader, or liberate what a conqueror holds.",
+       "It usually takes a war. If your army cannot reach them in time, push your own victory instead - the winner is whoever finishes, not whoever starts, the countdown."
+      ]
+     },
+     {
+      "q": "The game ended. What is worth reviewing before the next one?",
+      "paragraphs": [
+       "Two questions beat any statistics screen: [B]where did the turns go[/B] (idle Cities, unspent Influence, a victory chased too late), and [B]which choice would you change[/B] - the civilization picks, the war you did or did not fight, the Triumphs you ignored.",
+       "Then carry it forward: your Leader earned Legend progress and Mementos, so the next game starts a step ahead. Pick a different leader family - builder, conqueror, trader, scientist - and the same map rules read completely differently."
+      ]
+     }
+    ]
    }
   ]
  },
