@@ -283,9 +283,9 @@ window.CIVPEDIA_SCENE_ART = {
  "WONDERS_1@CONCEPTS": {
   "src": "images/paintings/scene/concepts/wonders_1.jpg",
   "name": "Wonders",
-  "credit": "Aliv123",
-  "source": "File:Colossus of rhodes.jpg",
-  "license": "CC BY-SA 4.0"
+  "credit": "Thomas Cole",
+  "source": "File:Thomas Cole - Architect’s Dream - Google Art Project.jpg",
+  "license": "Public domain"
  },
  "NATURALWONDER_1@CONCEPTS": {
   "src": "images/paintings/scene/concepts/naturalwonder_1.jpg",
