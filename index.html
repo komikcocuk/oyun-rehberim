@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- index.html itself must never be cached by the browser -- otherwise a
+     plain reload keeps re-serving old ?v= script references even after
+     the file on disk (and the ?v= tokens in it) changed, hiding already-
+     fixed content behind a stale tab until a hard refresh. -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Civilopedia</title>
+<!-- style.css needs the same cache-bust token as the scripts below: without it
+     a CSS-only change can sit invisible behind a cached copy even though every
+     ?v= script URL changed. -->
+<link rel="stylesheet" href="style.css?v=20260930l">
+</head>
+<body>
+  <!-- the opening: the title card rises out of the dark like a page's
+       painting (style.css .splash, app.js draws and ends it; a tap ends it early) -->
+  <div id="splash" class="splash" aria-hidden="true">
+    <div class="splash-stage"><canvas class="splash-canvas"></canvas></div>
+  </div>
+  <div class="frame">
+
+    <button id="drawer-handle" class="drawer-handle" type="button" aria-label="Open menu" aria-expanded="false">
+      <img class="dh-civ7" src="images/ui/civ7-badge.png" alt="">
+    </button>
+
+    <header class="masthead">
+      <h1 id="home-title" class="masthead-title" role="button" tabindex="0" aria-label="Home">
+        <span class="home-frame"><img class="home-logo" src="images/ui/civilopedia-logo.png" alt="Civilopedia"></span>
+      </h1>
+    </header>
+
+    <nav id="tabbar" class="tabbar"></nav>
+
+    <div class="toolbar">
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="SEARCH" autocomplete="off">
+        <span class="search-icon" aria-hidden="true"></span>
+      </div>
+      <div id="page-title" class="page-title">
+        <button id="nav-prev" class="nav-arrow" type="button" aria-label="Previous page" disabled><img class="nav-arrow-ico" src="images/ui/nav-prev.png?v=20260930l" alt=""></button>
+        <span id="page-title-text" class="page-title-text"></span>
+        <button id="nav-next" class="nav-arrow" type="button" aria-label="Next page" disabled><img class="nav-arrow-ico" src="images/ui/nav-next.png?v=20260930l" alt=""></button>
+      </div>
+    </div>
+
+    <div class="layout">
+      <nav id="sidebar" class="sidebar"></nav>
+      <div id="sidebar-scrim" class="sidebar-scrim"></div>
+      <main id="content" class="content"></main>
+    </div>
+  </div>
+
+  <!-- Cache-bust query string: bump CB_VER whenever any asset below changes.
+       Without this, a browser (or the Claude Browser preview pane, which has
+       gotten visibly "stuck" on a localhost origin before) can keep serving a
+       stale data.js/unit-stats.js/app.js even after the file on disk changed,
+       which makes already-fixed icons/logos look broken again in a session
+       that never reloaded past its cache. -->
+  <script src="data.js?v=20260930l"></script>
+  <script src="leader-media.js?v=20260930l"></script>
+  <script src="leader-list.js?v=20260930l"></script>
+  <script src="leader-lore.js?v=20260930l"></script>
+  <script src="leader-extras.js?v=20260930l"></script>
+  <script src="mementos.js?v=20260930l"></script>
+  <script src="civ-pairings.js?v=20260930l"></script>
+  <script src="civ-pair-notes.js?v=20260930l"></script>
+  <script src="civ-pair-plans.js?v=20260930l"></script>
+  <script src="victories.js?v=20260930l"></script>
+  <script src="civ-lore.js?v=20260930l"></script>
+  <script src="civ-extras.js?v=20260930l"></script>
+  <script src="civ-start-biases.js?v=20260930l"></script>
+  <script src="paintings.js?v=20260930l"></script>
+  <script src="civ-civics.js?v=20260930l"></script>
+  <script src="civ-civic-media.js?v=20260930l"></script>
+  <script src="civic-page-media.js?v=20260930l"></script>
+  <script src="civ-strategy.js?v=20260930l"></script>
+  <script src="civ-tips.js?v=20260930l"></script>
+  <script src="wonder-media.js?v=20260930l"></script>
+  <script src="improvement-media.js?v=20260930l"></script>
+  <script src="building-media.js?v=20260930l"></script>
+  <script src="tech-civic-icons.js?v=20260930l"></script>
+  <script src="tech-media.js?v=20260930l"></script>
+  <script src="tech-tree.js?v=20260930l"></script>
+  <script src="civic-tree.js?v=20260930l"></script>
+  <script src="civic-page-unlocks.js?v=20260930l"></script>
+  <script src="civ-traditions.js?v=20260930l"></script>
+  <script src="civic-history.js?v=20260930l"></script>
+  <script src="gov-faq.js?v=20260930l"></script>
+  <script src="section-faq.js?v=20260930l"></script>
+  <script src="intro-text.js?v=20260930l"></script>
+  <script src="policies.js?v=20260930l"></script>
+  <script src="government-stats.js?v=20260930l"></script>
+  <script src="natural-wonder-media.js?v=20260930l"></script>
+  <script src="natural-wonder-stats.js?v=20260930l"></script>
+  <script src="resource-media.js?v=20260930l"></script>
+  <script src="unit-stats.js?v=20260930l"></script>
+  <script src="unit-attrs.js?v=20260930l"></script>
+  <script src="unit-strategy.js?v=20260930l"></script>
+  <script src="unit-civ-bonuses.js?v=20260930l"></script>
+  <script src="tradition-tips.js?v=20260930l"></script>
+  <script src="building-scenes.js?v=20260930l"></script>
+  <script src="scene-art.js?v=20260930l"></script>
+  <script src="app.js?v=20260930l"></script>
+</body>
+</html>
+
+
