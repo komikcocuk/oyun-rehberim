@@ -220,12 +220,7 @@
   if (sidebarScrim) {
     sidebarScrim.addEventListener("click", function () { setSidebarOpen(false); });
   }
-  if (homeTitle) {
-    homeTitle.addEventListener("click", goHome);
-    homeTitle.addEventListener("keydown", function (ev) {
-      if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); goHome(); }
-    });
-  }
+  // (the masthead logo is a plain emblem now -- not a Home button)
   function closeMobileNav() {
     if (isMobileNav()) setSidebarOpen(false);
   }
@@ -459,6 +454,7 @@
   augmentCivTips();
   buildFlatIndex();
   renderTabbar();
+  renderTopLang();
   bindTabbarDragScroll();
   bindDragScrollAreas();
   renderSidebar();
@@ -1631,7 +1627,6 @@
     // No panel header -- the toolbar's #page-title already shows "Units", and
     // each age group carries its own <h3>.
     var unitGuide = sectionFaqHtml("UNITS", "");
-    if (unitGuide && (window.CIVPEDIA_SECTION_FAQ_TR || {}).UNITS) unitGuide = guideLangHtml() + unitGuide;
     // (acc-exclusive: one Age open at a time, as on a civilization's page)
     var html = '<div class="page-panel unit-index-panel acc-exclusive' + (unitGuide ? ' page-panel--faq' : '') + '">';
     // the section's emblem over the Age panels, as on the other homes
@@ -2372,32 +2367,41 @@
   function guideLang() {
     try { return localStorage.getItem("guideLang") === "tr" ? "tr" : "en"; } catch (e) { return "en"; }
   }
-  function guideLangHtml() {
+  // The single TR/EN switch lives at the masthead's far left and applies
+  // everywhere at once (guides, FAQ caption, the Concepts sidebar).
+  function renderTopLang() {
+    var host = document.getElementById("guide-lang-top");
+    if (!host) return;
     var l = guideLang();
-    return '<div class="guide-lang" role="group" aria-label="Guide language">' +
-      '<span class="guide-lang-label">Rehber / Guide</span>' +
-      '<button type="button" class="guide-lang-btn' + (l === "en" ? " active" : "") + '" data-lang="en">EN</button>' +
-      '<button type="button" class="guide-lang-btn' + (l === "tr" ? " active" : "") + '" data-lang="tr">TR</button></div>';
-  }
-  function bindGuideLang() {
-    contentEl.querySelectorAll(".guide-lang-btn").forEach(function (btn) {
+    host.innerHTML =
+      '<button type="button" class="guide-lang-btn' + (l === "tr" ? " active" : "") + '" data-lang="tr">TR</button>' +
+      '<span class="guide-lang-sep">/</span>' +
+      '<button type="button" class="guide-lang-btn' + (l === "en" ? " active" : "") + '" data-lang="en">EN</button>';
+    host.querySelectorAll(".guide-lang-btn").forEach(function (btn) {
       btn.addEventListener("click", function (ev) {
         ev.stopPropagation();
         try { localStorage.setItem("guideLang", btn.getAttribute("data-lang")); } catch (e) {}
+        renderTopLang();
+        // redraw whatever shows translated text right now
         if (activePageId && activePageId.indexOf("__HOME__") === 0) {
           renderSectionHome(activePageId.slice(8));
           return;
         }
         if (activePageId === "__UNIT_INDEX__") { renderUnitIndex(); return; }
+        renderSidebar();
         var intro = findIntroEntry();
-        if (intro) navigateToPage(intro.page, intro.groupTitle, intro.sectionId);
+        if (intro && currentPageCtx && currentPageCtx.page === intro.page) {
+          navigateToPage(intro.page, intro.groupTitle, intro.sectionId);
+        }
       });
     });
   }
+  function bindGuideLang() {} // (the switch is global now -- nothing to bind per page)
 
   function sectionFaqHtml(sectionId, hero, plain) {
     var faq = (SECTION_FAQ || window.CIVPEDIA_SECTION_FAQ || {})[sectionId] || {};
-    if (guideLang() === "tr" && (window.CIVPEDIA_SECTION_FAQ_TR || {})[sectionId]) {
+    var isTr = guideLang() === "tr" && (window.CIVPEDIA_SECTION_FAQ_TR || {})[sectionId];
+    if (isTr) {
       faq = window.CIVPEDIA_SECTION_FAQ_TR[sectionId];
     }
     var html = "";
@@ -2411,8 +2415,9 @@
     if (!html) return hero;
     // the whole guide folds under one FAQ heading, closed until tapped, set
     // a few lines below whatever stands above it
-    return hero + chapterSectionHtml("FAQ", html, "toggle-collapsed")
-      .replace('<section class="chapter ', '<section class="chapter chapter--faq-wrap ');
+    // lang="tr" keeps CSS uppercase Turkish-correct (i -> İ, not I)
+    return hero + chapterSectionHtml(isTr ? "Sıkça Sorulan Sorular" : "FAQ", html, "toggle-collapsed")
+      .replace('<section class="chapter ', '<section' + (isTr ? ' lang="tr"' : '') + ' class="chapter chapter--faq-wrap ');
   }
 
   function renderSectionHome(sectionId) {
@@ -2455,9 +2460,7 @@
     // (the older Government home, kept for a build without its guide)
     var isGovHome = sectionId === "GOVERNMENT" && GOV_FAQ.length && !isFaqHome;
     // the section's own head (its tree, its emblem), then its guide under it
-    var guide = isFaqHome
-      ? ((window.CIVPEDIA_SECTION_FAQ_TR || {})[sectionId] ? guideLangHtml() : "") + sectionFaqHtml(sectionId, "")
-      : "";
+    var guide = isFaqHome ? sectionFaqHtml(sectionId, "") : "";
     // a tree home's emblem stands over its title button, unnamed (the button is the name)
     var treeEmblem = HOME_ART[sectionId] && HOME_ART[sectionId].portrait
       ? '<div class="intro-hero tree-home-emblem"><div class="intro-emblem"><div class="intro-cring">' +
@@ -2554,6 +2557,7 @@
     });
     updateTabbarIndicator();
   }
+
 
   function renderSidebar() {
     sidebarEl.innerHTML = "";
@@ -4688,7 +4692,7 @@
     // under the Welcome: the guide in questions and answers (section-faq.js)
     var faq = (window.CIVPEDIA_SECTION_FAQ || {}).CONCEPTS;
     var guide = faq && (faq.groups || []).length
-      ? '<div class="intro-guide">' + guideLangHtml() + sectionFaqHtml("CONCEPTS", "", true) + '</div>' : "";
+      ? '<div class="intro-guide">' + sectionFaqHtml("CONCEPTS", "", true) + '</div>' : "";
     return hero + renderChapters(page.chapters || [], false, "CONCEPTS", { welcome: true }) + guide;
   }
 

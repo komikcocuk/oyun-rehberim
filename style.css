@@ -319,10 +319,6 @@ input {
   right: 25px;
 }
 
-.masthead-title {
-  cursor: pointer;
-}
-
 .masthead-title:focus-visible {
   outline: 1px solid rgba(234, 213, 154, 0.5);
   outline-offset: 4px;
@@ -8690,3 +8686,11 @@ body:has(.tt-pop:not([hidden])) .drawer-handle {
 .guide-lang-label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted,#9a9fae)}
 .guide-lang-btn{font:600 12px/1 Georgia,serif;letter-spacing:.08em;color:#c9b273;background:transparent;border:1px solid rgba(234,213,154,.35);border-radius:999px;padding:6px 14px;cursor:pointer}
 .guide-lang-btn.active{color:#141925;background:linear-gradient(180deg,#ead59a,#c9a355);border-color:#ead59a}
+/* the global TR/EN switch, pinned to the masthead's left edge */
+.guide-lang--top{position:absolute;left:16px;top:50%;transform:translateY(-50%);margin:0;gap:4px;z-index:5}
+.guide-lang--top .guide-lang-btn{padding:5px 9px;font-size:11px}
+.guide-lang-sep{color:rgba(234,213,154,.45);font:600 12px/1 Georgia,serif}
+@media (max-width: 700px){
+  .guide-lang--top{left:8px}
+  .guide-lang--top .guide-lang-btn{padding:4px 7px;font-size:10px}
+}
