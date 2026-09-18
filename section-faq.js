@@ -395,7 +395,7 @@ window.CIVPEDIA_SECTION_FAQ = {
       "q": "Turn 1: found here or walk first?",
       "paragraphs": [
        "Look at what your Settler is standing on. Found on the spot if the tile has [B]Fresh Water[/B] (a river or Lake) and a Resource or two in reach - the turns a Capital produces are worth more than a slightly prettier site.",
-       "Walk only when one move fixes a real flaw: reaching Fresh Water, the Coast, or a Resource cluster. Two or more turns of walking almost never pays.",
+       "Walk only when one move fixes a real flaw: reaching Fresh Water, the Coast, or a Resource cluster. Two or more turns of walking almost never pays. The Map guide's \"How do I read a settling site?\" is the full checklist.",
        "Then set the first production (a Scout is the usual answer) and pick the first research toward whatever your land offers - a Coast start wants Sailing, a Resource-rich start wants the technology that improves them."
       ]
      },
@@ -403,56 +403,60 @@ window.CIVPEDIA_SECTION_FAQ = {
       "q": "Turns 1-20: what does a good opening look like?",
       "paragraphs": [
        "Three things, in parallel:",
-       "[BLIST][LI][B]See the map[/B] - a Scout (or two) finds neighbours, Independent Powers, Natural Wonders and the sites your next Settlers will take. Discoveries on the map pay small rewards along the way.[LI][B]Grow and expand[/B] - keep the Capital growing and get the first Settler out early; the second Settlement roughly doubles everything you produce.[LI][B]Make first contacts[/B] - meet Leaders, start Befriending an Independent Power, and spend Influence as it comes in; it should never pool unused.[/BLIST]",
-       "A Warrior or two at home is enough army for now unless an aggressive neighbour is close."
+       "[BLIST][LI][B]See the map[/B] - a Scout (or two) finds neighbours, Independent Powers, Natural Wonders and the sites your next Settlers will take. Discoveries on the map pay small rewards along the way.[LI][B]Grow and expand[/B] - keep the Capital growing and get the first Settler out early; the second Settlement roughly doubles everything you produce.[LI][B]Make first contacts[/B] - meet Leaders, read their Agendas (the Leaders guide explains how to play to them), start Befriending an Independent Power, and spend Influence as it comes in; it should never pool unused.[/BLIST]",
+       "A Warrior or two at home is enough army for now unless an aggressive neighbour is close. By turn 20 you want a second Settlement founded or on the way, a Pantheon in sight, and a first Happiness or Warehouse Building rising in the Capital."
       ]
      },
      {
       "q": "When a neighbour turns hostile early, what saves me?",
       "paragraphs": [
-       "Terrain and walls, not unit count. Put a unit behind a River or on Hills at the border, build Walls in the threatened Settlement, and let the attacker break against defence bonuses. Ranged units behind a fortified melee unit hold ground far above their cost.",
-       "Diplomacy is the other half: improve the Relationship, avoid breaking their Agenda, and if war still comes, remember that a war declared on you swings War Support your way."
+       "Terrain and walls, not unit count. Put a unit behind a River or on Hills at the border, build Walls in the threatened Settlement, and let the attacker break against defence bonuses. Ranged units behind a fortified melee unit hold ground far above their cost - the Units guide's defence questions cover the mechanics.",
+       "Diplomacy is the other half: improve the Relationship, avoid breaking their Agenda, and if war still comes, remember that a war declared on you swings War Support your way. An early war survived often leaves the attacker further behind than you."
       ]
      },
      {
       "q": "Mid-Antiquity: what am I actually working toward?",
       "paragraphs": [
-       "[B]Triumphs[/B]. Pick the two or three that fit what you are already doing - Wonders on a Production start, Codices on a Science start, conquest if a war is going well - and finish them. Each milestone pays now and stacks advantages for the next Age.",
-       "This is also when the empire takes its shape: your Settlement count approaches the limit, Cities get their first Quarters, and you should be choosing which victory family (Culture, Economy, Military, Science) this game is leaning toward."
+       "[B]Triumphs[/B]. Pick the two or three that fit what you are already doing - Wonders on a Production start, Codices on a Science start, conquest if a war is going well - and finish them. Each milestone pays now and stacks advantages for the next Age; the Ages guide lists what each Set asks for.",
+       "This is also when the empire takes its shape: your Settlement count approaches the limit (every Settlement over it costs -5 Happiness everywhere), Cities get their first Quarters, and you should be choosing which victory family - Culture, Economy, Military, Science - this game is leaning toward.",
+       "A useful mid-Age habit: every ten turns, ask which Triumph advanced, which City grew a Quarter, and which rival got stronger. If none of the answers please you, the queues are wrong."
       ]
      },
      {
       "q": "The Age is ending. What do the last turns look like?",
       "paragraphs": [
        "Finish what still counts and stop what will not survive the transition: complete the nearly-done Wonder and the last Triumph milestone, spend Gold and Influence you would otherwise waste, position your army, and end wars you cannot finish.",
-       "The Ages guide has a full checklist - the short version is: nothing in the queue should be something the next Age makes obsolete."
+       "Check the systems that close with the Age too - a Pantheon not taken is gone for good, and Antiquity's unique units can never be trained again. The Ages guide has the full last-ten-turns checklist.",
+       "The short version: nothing in any queue should be something the next Age makes obsolete."
       ]
      },
      {
       "q": "At the transition, how do I choose well?",
       "paragraphs": [
        "Three choices arrive together:",
-       "[BLIST][LI][B]The next civilization[/B] - pick the one that serves your leader and your intended victory, not just the historical pairing. The routes on each leader page lay the options out.[LI][B]Continuity or Regroup[/B] - Continuity carries wealth forward; Regroup rebuilds your army for free. Peaceful games usually want Continuity, contested borders want Regroup.[LI][B]Dedications[/B] - take the three that multiply what your new civilization will do anyway.[/BLIST]"
+       "[BLIST][LI][B]The next civilization[/B] - pick the one that serves your leader and your intended victory, not just the historical pairing. The routes and Game plans on each leader page lay the options out, and the Civilizations guide explains the unlock conditions.[LI][B]Continuity or Regroup[/B] - Continuity carries wealth forward; Regroup rebuilds your army for free. Peaceful games usually want Continuity, contested borders want Regroup.[LI][B]Dedications[/B] - take the three that multiply what your new civilization will do anyway.[/BLIST]",
+       "None of these can be changed later, so a minute of thought here is worth more than ten anywhere else."
       ]
      },
      {
       "q": "Exploration begins: what changes on turn one of the new Age?",
       "paragraphs": [
-       "The board reopens. New civics and technologies, a new Settlement Limit with room to expand again, and two new races start at once: [B]Religion[/B] (found one early or decide now to skip it) and the [B]open sea[/B] - the first fleets to the Distant Lands claim the best colony sites, Treasure Resources and Natural Wonders.",
-       "Do not forget the home front while you sail: your Cities should be overbuilding old Buildings and starting the Age's Quarters."
+       "The board reopens. New civics and technologies, a new Settlement Limit with room to expand again, and two new races start at once: [B]Religion[/B] (found one early or decide now to skip it - the Religion guide weighs the choice) and the [B]open sea[/B] - the first fleets to the Distant Lands claim the best colony sites, Treasure Resources and Natural Wonders.",
+       "Do not forget the home front while you sail: your Cities should be overbuilding old Buildings, starting the Age's Quarters, and slotting the new civilization's civics. The map also deals new Resources this Age - re-scout your own borders, not just the horizon."
       ]
      },
      {
       "q": "How does the Exploration economy come together?",
       "paragraphs": [
        "Treasure. Settlements in the Distant Lands with Treasure Resources send [B]Treasure Convoys[/B] home - escort them, because every Cargo that arrives counts toward an Economic Victory later and funds everything now.",
-       "Alongside the convoys: more Trade Routes, Resources slotted into Cities, and Suzerainties over City-States. An empire that ends Exploration rich enters the Modern Age with choices; a poor one enters with a shopping list."
+       "Alongside the convoys: more Trade Routes, Resources slotted into Cities, and Suzerainties over City-States. An empire that ends Exploration rich enters the Modern Age with choices; a poor one enters with a shopping list.",
+       "If you are not the naval power, trade with whoever is - imported Resources count in your Cities too, and the Map guide's trade questions show how far your routes can reach."
       ]
      },
      {
       "q": "A Crisis hit mid-Age. How do I ride it out?",
       "paragraphs": [
-       "Crises are survivable by preparation, not luck: keep a Happiness cushion before one starts, take the Crisis Policies that hurt your plan least, and solve the specific threat - Missionaries and Temples against religious unrest, garrisons against revolts, isolation and healing against plague.",
+       "Crises are survivable by preparation, not luck: keep a Happiness cushion before one starts, take the Crisis Policies that hurt your plan least (the Government guide explains how), and solve the specific threat - Missionaries and Temples against religious unrest, garrisons against revolts, isolation and healing against plague.",
        "A Crisis handled cleanly while a rival stumbles is worth as much as a won war. The Ages guide covers each Crisis by name."
       ]
      },
@@ -460,7 +464,22 @@ window.CIVPEDIA_SECTION_FAQ = {
       "q": "The Modern Age opens: what do the first ten turns decide?",
       "paragraphs": [
        "Almost everything. Adopt an [B]Ideology[/B] early (its civics and Traditions compound with time), overbuild your Cities with Modern Buildings, and commit to one victory - from here on, every turn spent on a race you will not win is a turn given to your rivals.",
+       "Take stock of what the first two Ages banked: Wonders, Relics and Artifacts are Tourism now, slotted Resources are GDP, Settlements are Dominion, Codices feed Innovation. The victory pages under Ages score each of them.",
        "Check the other players too: who is closest to what, and what would slow them down."
+      ]
+     },
+     {
+      "q": "How should my army change from Age to Age?",
+      "paragraphs": [
+       "Antiquity's army is small and defensive: a few melee and ranged units, one Army Commander gathering promotions. Exploration adds the sea - escorts for convoys and a real navy if the Distant Lands matter to you - while the Commander from Antiquity keeps its experience. The Modern Age is combined arms: upgraded veterans, siege, air power, and every unit under a Commander's radius.",
+       "Two constants across all three: never keep more army than the treasury and your borders justify in peace, and never enter an Age transition mid-war you cannot end. The Units guide covers what each Age's roster is for."
+      ]
+     },
+     {
+      "q": "How do I read what my rivals are doing?",
+      "paragraphs": [
+       "Watch three signals. [B]Relationships[/B] - a Leader drifting Unfriendly is telling you where their army will point; their Agenda (on their leader page) tells you why. [B]The map[/B] - Settlers heading somewhere, a fleet massing, a Wonder rising are all announcements. [B]The scores[/B] - Triumph progress and, in the Modern Age, each victory's counter show who is actually winning, not just who looks big.",
+       "Then act early: a Sanction, a rival Alliance, a defensive pact or a well-timed war costs far less before a leader is ahead than after."
       ]
      },
      {
@@ -689,6 +708,36 @@ window.CIVPEDIA_SECTION_FAQ = {
       "q": "How do I choose Mementos for a particular game?",
       "paragraphs": [
        "Choose them last, after you know your leader, your civilization and your map. Take one that makes your opening faster (extra Production, Food or a free unit) and one that strengthens the victory you plan. Mementos that pay only in a situation you may never see - a naval bonus on a land map - are the most common waste."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "When do my leader choices actually happen?",
+      "paragraphs": [
+       "Mostly before turn 1: the leader, the Mementos and (with them) the arc of the whole game are set on the start screen. In play, the recurring choices are [B]Attribute Points[/B] as they arrive and how you honour or ignore the Agendas of the leaders you meet.",
+       "At each Age transition the leader is the one thing that does not change - which is exactly why the civilization should be chosen to serve the Leader Ability, as the Game plans on each leader page spell out."
+      ]
+     },
+     {
+      "q": "What should my leader have banked by the end of each Age?",
+      "paragraphs": [
+       "By the end of Antiquity: the first Attribute nodes bought, at least one solid Relationship, and an ability that has been fed all Age (Towns for Augustus, friends for Himiko, the sea for Yi Sun-sin). By the end of Exploration: deeper Attribute trees and the alliances or rivalries that will decide the Modern map. Legend progress ticks across all of it and pays in the games after this one."
+      ]
+     },
+     {
+      "q": "Which other systems does the leader reach into?",
+      "paragraphs": [
+       "All of them, through multipliers: the ability decides which civilizations fit (the Civilizations guide), Attributes strengthen whole yield families, and the Agenda shapes diplomacy every time another leader evaluates you. When a plan feels flat, the first question is whether the leader's multiplier is actually being fed."
+      ]
+     },
+     {
+      "q": "The classic leader timing mistake?",
+      "paragraphs": [
+       "Hoarding Attribute Points \"for later\" - a node bought in Antiquity compounds for the whole game, one bought in the Modern Age barely starts. A close second: meeting a leader and never opening their page to read the Agenda you are about to trample."
       ]
      }
     ]
@@ -995,6 +1044,35 @@ window.CIVPEDIA_SECTION_FAQ = {
     ]
    },
    {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "Which Age decides the game?",
+      "paragraphs": [
+       "The one you treat as decisive. Antiquity sets the foundation (Settlements, Traditions, Wonders), Exploration builds the engine (colonies, Relics, Resources), and the Modern Age - the shortest - spends what the other two saved. A player who wins Antiquity and coasts loses to one who compounds all three; the General Concepts walkthrough follows the whole arc turn by turn."
+      ]
+     },
+     {
+      "q": "What is the single most valuable thing each Age leaves behind?",
+      "paragraphs": [
+       "Antiquity: Settlements and Traditions - land and law outlive everything else. Exploration: the economy - Distant Lands colonies, Relics and Resource networks are exactly what the Modern victories score. And every Age leaves Triumph milestones, whose rewards stack quietly into the next."
+      ]
+     },
+     {
+      "q": "How do Crises fit the rhythm?",
+      "paragraphs": [
+       "Late in each of the first two Ages, as a stress test of whatever you neglected: Happiness, garrisons, Religion. Prepare in the calm half of the Age and a Crisis is a speed bump; ignore it and it is the reason your transition starts poor. Each Crisis has its own page in this section."
+      ]
+     },
+     {
+      "q": "The classic Age-timing mistake?",
+      "paragraphs": [
+       "Treating Antiquity as a warm-up and the transition as a loading screen. Both are where games are won: a finished Triumph, a saved Pantheon, a considered Continuity-or-Regroup choice are worth more than most Modern-Age turns."
+      ]
+     }
+    ]
+   },
+   {
     "title": "Where to read next",
     "items": [
      {
@@ -1280,6 +1358,35 @@ window.CIVPEDIA_SECTION_FAQ = {
       ]
      }
     ]
+   },
+   {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "When does the civilization choice bite?",
+      "paragraphs": [
+       "Twice per game, at the transitions - and the options you see there were earned earlier: unlock deeds are done [B]during the Age before[/B]. If you want Exploration's naval powers, sail in Antiquity; if you want a conqueror, fight before the Age ends. The routes on each leader page show what leads where."
+      ]
+     },
+     {
+      "q": "What are a new civilization's first ten turns for?",
+      "paragraphs": [
+       "Its unique pieces: start the unique Quarter in the City where it pays most, open the civilization's own civics tree (those civics are cheap and yours alone - the Culture guide explains the side tree), and plan the unique unit's moment before rivals field its counter."
+      ]
+     },
+     {
+      "q": "What carries from my old civilization, and how do I use it?",
+      "paragraphs": [
+       "Traditions (slot them again if they still fit - the Government guide covers slots), Ageless buildings and unique Quarters, and Wonders. Place the new Age's Buildings beside the old Quarters so the adjacency keeps working; a three-Age City done well is a layer cake, not a teardown."
+      ]
+     },
+     {
+      "q": "The classic civilization mistake?",
+      "paragraphs": [
+       "Auto-picking the historical pairing. It is usually good and occasionally wrong for your map: a coastal empire led into an inland civilization wastes half of what it built. Check the Game plan on the leader page against the land you actually hold."
+      ]
+     }
+    ]
    }
   ]
  },
@@ -1531,6 +1638,35 @@ window.CIVPEDIA_SECTION_FAQ = {
     ]
    },
    {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "What does Culture buy me in each Age?",
+      "paragraphs": [
+       "Antiquity: civics that open policy slots, Governments and your civilization's own tree. Exploration: Traditions worth carrying, Celebrations coming faster, Great Work slots filling. Modern: the Ideology branch and, if this is your race, the Tourism total that wins it. Even a Science or war empire lives on Culture's slots and Celebrations."
+      ]
+     },
+     {
+      "q": "What should each Age leave on the Culture ledger?",
+      "paragraphs": [
+       "A full Government with no empty slot, at least a few Traditions worth keeping forever, a Celebration rhythm (Happiness banked so the next one is never far - the Government guide covers the loop), and in Exploration onward a growing shelf of Great Works and Relics."
+      ]
+     },
+     {
+      "q": "Which other systems feed it?",
+      "paragraphs": [
+       "Happiness Buildings drive Celebrations (Buildings guide), Wonders and Religion supply the Tourism pieces (their own guides score them), and civilizations bring the side civics tree. Culture is less a lane than the grease on every other lane."
+      ]
+     },
+     {
+      "q": "The classic Culture mistake?",
+      "paragraphs": [
+       "Ignoring Masteries. The second level of a civic looks optional and is where extra Traditions, slots and Triumph credit hide; several victories quietly run through them."
+      ]
+     }
+    ]
+   },
+   {
     "title": "Where to read next",
     "items": [
      {
@@ -1694,6 +1830,35 @@ window.CIVPEDIA_SECTION_FAQ = {
       "q": "What should I do with my Government in the Modern Age?",
       "paragraphs": [
        "Choose an Ideology that fits your victory and commit to it early - the Ideology's civics and Traditions are strong, and leaders of opposing Ideologies are worth more Dominion if you conquer them. Then put every slot into the victory you are closest to."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "How often should Government actually change?",
+      "paragraphs": [
+       "The Government itself: at Age starts, or when a new tier clearly beats the old. The [B]policies inside it[/B]: constantly - before a war, after a peace, when expansion stops. A slot that has not been reconsidered in twenty turns is probably wasted."
+      ]
+     },
+     {
+      "q": "What does each Age demand of my slots?",
+      "paragraphs": [
+       "Antiquity: growth, expansion and the first Traditions. Exploration: trade, faith or navy to match your race, plus Crisis Policies handled with the least pain. Modern: the Ideology's cards and whatever the chosen victory multiplies. The Culture guide explains where new slots come from."
+      ]
+     },
+     {
+      "q": "How does Happiness thread through it?",
+      "paragraphs": [
+       "Government is where Happiness becomes power: surplus starts Celebrations, Celebrations boost yields and (for many civilizations) unlock their best turns. Keep the cushion positive through Crises and never let a Settlement sit Unhappy - the Buildings guide lists the cures."
+      ]
+     },
+     {
+      "q": "The classic Government mistake?",
+      "paragraphs": [
+       "Running war policies in peace and peace policies in war. Swapping is free at the right moments - the empire that re-slots for each phase is playing a different, better game than the one that set its cards in Antiquity."
       ]
      }
     ]
@@ -1958,6 +2123,35 @@ window.CIVPEDIA_SECTION_FAQ = {
       "q": "When is a Future Tech worth it?",
       "paragraphs": [
        "When you have nothing else useful to research. Each Future Tech moves the Age Progress meter for everyone, which ends the Age sooner - good if you are ahead, bad if you are behind. In the Modern Age it is also how the Science leader keeps the pressure on."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "What is research for in each Age?",
+      "paragraphs": [
+       "Antiquity: unlocking the Buildings and units your start demands, and banking Codices. Exploration: the sea, the economy and the Age's military step. Modern: the sprint - flight, the projects, and for a Science player the road to the Launch Pad. Research to need, not down the leftmost column."
+      ]
+     },
+     {
+      "q": "What should be researched before each Age ends?",
+      "paragraphs": [
+       "Whatever unlocks your next civilization's toys and your Triumphs' demands - plus, if you are ahead, Future Tech to push the Age over (every completion moves the meter for everyone; skip it if you are behind). Masteries are where the Codices and Triumph credit live."
+      ]
+     },
+     {
+      "q": "Where does the Science actually come from?",
+      "paragraphs": [
+       "Buildings with good adjacency, Specialists on them, Resources and a few civics - which makes Science a city-planning question as much as a tree question. The Buildings guide's adjacency answers are half of any Science victory."
+      ]
+     },
+     {
+      "q": "The classic research mistake?",
+      "paragraphs": [
+       "Beelining a distant dream tech while the army fights one era behind. The tree rewards checking, every ten turns, what the empire needs [B]now[/B] - walls, a boat, a Happiness building - and detouring without regret."
       ]
      }
     ]
@@ -2240,6 +2434,35 @@ window.CIVPEDIA_SECTION_FAQ = {
       "q": "How does the map change what victory I should aim for?",
       "paragraphs": [
        "A continents map with many coasts rewards trade and navies (Economic); a Pangaea rewards armies (Military); a map with many Natural Wonders and Mountains rewards Culture and Science. Read the map early, then choose civilizations for the next Ages that use it."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "How does the map's role change across the game?",
+      "paragraphs": [
+       "Turns 1-20 it is the unknown to scout; mid-Antiquity it is the settling race; Exploration reopens it twice (the Distant Lands, and new Resources dealt at the transition); the Modern Age turns it into a scoreboard of Dominion, dig sites and late Resources like Coal and Oil. Re-scout after every transition - your own borders included."
+      ]
+     },
+     {
+      "q": "What should each Age claim from it?",
+      "paragraphs": [
+       "Antiquity: the Fresh Water and Resource sites within reach, and a look at every neighbour. Exploration: colonies, Treasure Resources and the Natural Wonders (10 Tourism each later). Modern: the strategics your units and Factories eat. A site unclaimed at Age's end is a rival's by the next."
+      ]
+     },
+     {
+      "q": "Which guides continue from here?",
+      "paragraphs": [
+       "Settling and reading tiles start in this guide; what to put on the tiles is Improvements and Buildings; what the tiles are worth at the end is the victory pages under Ages. The map is where every other system stands."
+      ]
+     },
+     {
+      "q": "The classic map mistake?",
+      "paragraphs": [
+       "Scouting once and considering it done. Fog regrows in knowledge terms: new Resources appear, rivals move, dig sites spawn - the player with current maps declares the right wars and settles the right gaps."
       ]
      }
     ]
@@ -2533,6 +2756,35 @@ window.CIVPEDIA_SECTION_FAQ = {
     ]
    },
    {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "What gets built when?",
+      "paragraphs": [
+       "Antiquity: Warehouses and the first yield Buildings, placed for adjacency, forming the first Quarters. Exploration and Modern each open a better shelf - and the [B]overbuild[/B] question: replace what aged, keep what is Ageless, and put the new beside the old Quarters so adjacency compounds."
+      ]
+     },
+     {
+      "q": "What should a City show at each Age's end?",
+      "paragraphs": [
+       "Antiquity: two or three Quarters, walls if the border is warm, no idle turns. Exploration: the unique Quarter done, Specialists on the best Districts. Modern: everything current-Age where it counts - old Buildings are uncollected value, as the overbuilding answers above explain."
+      ]
+     },
+     {
+      "q": "Which systems hang off my Buildings?",
+      "paragraphs": [
+       "Happiness Buildings drive Celebrations (Government guide), Science and Culture Buildings carry those races, Warehouses multiply the countryside (Improvements guide), and Wonders want the Production districts you built early. City planning is the quiet engine of every victory."
+      ]
+     },
+     {
+      "q": "The classic building mistake?",
+      "paragraphs": [
+       "Building everything everywhere. A City with a purpose - Science here, Production there - beats three generalists; the guide's \"what to build, in order\" answers keep the queues honest."
+      ]
+     }
+    ]
+   },
+   {
     "title": "Where to read next",
     "items": [
      {
@@ -2738,6 +2990,35 @@ window.CIVPEDIA_SECTION_FAQ = {
       "q": "Which Improvements matter most for each victory?",
       "paragraphs": [
        "[BLIST][LI][B]Culture[/B] - Improvements that keep Appeal high, and those beside Natural Wonders.[LI][B]Economy[/B] - Resource Improvements (they fill Slots and feed Factories), and Treasure Resources in Distant Lands.[LI][B]Science[/B] - Resources that give Science, and Improvements beside Mountains.[LI][B]Military[/B] - Mines and Camps for Production, and Resources for unit upgrades.[/BLIST]"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "How does the countryside evolve?",
+      "paragraphs": [
+       "Early: growth tiles and claimed Resources, then Town Focuses matching what surrounds them. Mid-game: unique Improvements and the defensive pieces on borders. Late: the countryside is Tourism (beautiful tiles), GDP (Resources) and the first thing raiders pillage - keep it repaired."
+      ]
+     },
+     {
+      "q": "What should each Age's rural report say?",
+      "paragraphs": [
+       "Antiquity: every nearby Resource improved, Towns focused. Exploration: Distant Lands plantations and Treasure Resources working, unique Improvements placed where their civilization pays. Modern: nothing pillaged, nothing idle, the map's late Resources claimed."
+      ]
+     },
+     {
+      "q": "Where does it connect?",
+      "paragraphs": [
+       "Warehouses turn rural tiles into empire yields (Buildings guide), Town Focus decides what the countryside sends (Concepts guide), and the Map guide explains what each tile could be. Improvements are the map made productive."
+      ]
+     },
+     {
+      "q": "The classic countryside mistake?",
+      "paragraphs": [
+       "Leaving pillaged tiles smoking for twenty turns. A repaired Improvement pays again immediately - and a border of unrepaired farms tells every rival the interior is soft."
       ]
      }
     ]
@@ -2979,6 +3260,35 @@ window.CIVPEDIA_SECTION_FAQ = {
     ]
    },
    {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "When are Wonders worth the turns?",
+      "paragraphs": [
+       "Antiquity is the buffet - cheap Wonders, many uncontested. Exploration is a race where you should only enter what your Production can win. Modern Wonders are the expensive crown - 12 Tourism each, often the margin of a Cultural Victory. Every era: build them in the City you prepared, not the City that is free."
+      ]
+     },
+     {
+      "q": "What should each Age's skyline show?",
+      "paragraphs": [
+       "At least the Wonders your Triumphs asked for, placed where their bonuses and adjacency work. A Wonder is forever - it survives every transition and counts for Tourism at the end - so an Antiquity Wonder is the cheapest Modern points you will ever buy."
+      ]
+     },
+     {
+      "q": "Which guides does the race lean on?",
+      "paragraphs": [
+       "Production comes from Buildings and the countryside (their guides), the tile requirements from the Map guide, and the payoff is scored on the Culture and victory pages. Losing a race refunds the effort - the real cost is choosing races your plan never needed."
+      ]
+     },
+     {
+      "q": "The classic Wonder mistake?",
+      "paragraphs": [
+       "Chasing every Wonder out of habit. The builder who picks six that serve the plan beats the collector with ten trophies and no victory - and remember a conqueror can simply take yours, so wall the Wonder cities."
+      ]
+     }
+    ]
+   },
+   {
     "title": "Where to read next",
     "items": [
      {
@@ -3199,6 +3509,35 @@ window.CIVPEDIA_SECTION_FAQ = {
       "q": "What happens to my Religion in the Modern Age?",
       "paragraphs": [
        "It doesn't spread any more, but it doesn't disappear either: Relics, the Beliefs you keep and the Buildings you built stay. Place Relics in Buildings with Great Work slots to count them for Tourism."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "What is faith's timetable?",
+      "paragraphs": [
+       "A Pantheon in Antiquity (it costs one civic and ends with the Age - never skip it). The Religion decision in early Exploration: found fast or consciously pass. Spreading and Relic-collecting through the middle game; by the Modern Age the system closes and what remains is what you banked."
+      ]
+     },
+     {
+      "q": "What should Exploration end with?",
+      "paragraphs": [
+       "If you played faith: a Religion in your Settlements, Beliefs that fed your actual plan, and a shelf of Relics - six displayed is the milestone that lets a Founder Belief survive the transition. If you passed: the turns you saved invested somewhere that shows."
+      ]
+     },
+     {
+      "q": "Where does Religion touch the rest?",
+      "paragraphs": [
+       "Happiness and Culture through its Buildings and Relics (Tourism later - the Culture guide counts them), diplomacy through shared or clashing faiths, and one Crisis - the Wars of Religion - covered in the Ages guide."
+      ]
+     },
+     {
+      "q": "The classic faith mistake?",
+      "paragraphs": [
+       "Half-playing it: founding late, spreading a little, collecting two Relics. Religion pays the committed and the abstainers; the in-between player pays for a temple and gets a pamphlet."
       ]
      }
     ]
@@ -3491,6 +3830,35 @@ window.CIVPEDIA_SECTION_FAQ = {
       "q": "How do I use Commanders well?",
       "paragraphs": [
        "Keep them alive - they carry Promotions and Commendations. Pack units into them to move fast, and unpack them for battle. Give Promotions that suit the army: attack for an invasion, defence and healing for a border. A second Commander is worth training as soon as you have more than one front."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "In the flow of a game",
+    "items": [
+     {
+      "q": "What does each Age's army look like?",
+      "paragraphs": [
+       "Antiquity: a screen of melee and ranged behind terrain, one Army Commander collecting promotions. Exploration: the navy arrives - convoy escorts at minimum - and armies learn to cross water. Modern: combined arms under Commanders, siege for walls, air power over the decisive front."
+      ]
+     },
+     {
+      "q": "What should survive each transition?",
+      "paragraphs": [
+       "The Commanders - they keep their experience across Ages and are the army's real capital. Units age out or upgrade (Regroup at the transition rebuilds a force for free if you chose it); a transition entered mid-war with tired veterans is how empires shrink."
+      ]
+     },
+     {
+      "q": "What does war cost beyond the units?",
+      "paragraphs": [
+       "Gold every turn in maintenance, Happiness through War Weariness, and Relationships everywhere - the Government and Leaders guides carry those bills. The cheapest army is the one sized to the moment: enough to deter in peace, massed only when a war is chosen."
+      ]
+     },
+     {
+      "q": "The classic military mistake?",
+      "paragraphs": [
+       "Fighting without Commanders, or with one that never levelled. Promotions, the wider radius and reinforcement turn the same six units into twice the army - the difference between a siege that ends and one that bleeds."
       ]
      }
     ]
